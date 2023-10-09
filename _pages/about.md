@@ -24,3 +24,4 @@ News
 Pika
 ======
 Hi! This is Pika, the most handsome Alaskan Malamute on this planet (according to my dad). My dad uses this website mainly for academic purposes, but I have convinced him to also share my cutness here. My birthday is 06/19/2021. I love food and playing with hOOman!
+![NLP cloud](/images/pika.jpg){: .align-bottom}
