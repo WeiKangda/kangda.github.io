@@ -1,15 +1,13 @@
 ---
-title: "Paper Title Number 1"
+title: "Spatial-temporal Analysis of COVID-19's Impact on Human Mobility: the Case of the United States"
 collection: publications
 permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+excerpt: 'COVID-19 has been affecting every aspect of societal life including human mobility since De- cember, 2019. In this paper, we study the impact of COVID-19 on human mobility patterns at the state level within the United States. From the temporal perspective, we find that the change of mobility patterns does not necessarily correlate with government policies and guidelines, but is more related to people’s awareness of the pandemic, which is reflected by the search data from Google Trends. Our results show that it takes on average 14 days for the mobility patterns to adjust to the new situation. From the spatial perspective, we conduct a state-level network analysis and clustering using the mobility data from Multiscale Dynamic Human Mobility Flow Dataset. As a result, we find that (1) states in the same cluster have shorter geographical distances; (2) a 14-day delay again is found between the time when the largest number of clusters appears and the peak of Coronavirus-related search queries on Google Trends; and (3) a major reduction in other network flow properties, namely degree, closeness, and betweenness, of all states from the week of March 2 to the week of April 6 (the week of the largest number of clusters).'
+date: 2020-12-01
+venue: '20th and 21st Joint COTA International Conference of Transportation Professionals'
+paperurl: 'https://ascelibrary.org/doi/abs/10.1061/9780784483565.066'
+citation: 
 ---
-This paper is about the number 1. The number 2 is left for future work.
+COVID-19 has been affecting every aspect of societal life including human mobility since De- cember, 2019. In this paper, we study the impact of COVID-19 on human mobility patterns at the state level within the United States. From the temporal perspective, we find that the change of mobility patterns does not necessarily correlate with government policies and guidelines, but is more related to people’s awareness of the pandemic, which is reflected by the search data from Google Trends. Our results show that it takes on average 14 days for the mobility patterns to adjust to the new situation. From the spatial perspective, we conduct a state-level network analysis and clustering using the mobility data from Multiscale Dynamic Human Mobility Flow Dataset. As a result, we find that (1) states in the same cluster have shorter geographical distances; (2) a 14-day delay again is found between the time when the largest number of clusters appears and the peak of Coronavirus-related search queries on Google Trends; and (3) a major reduction in other network flow properties, namely degree, closeness, and betweenness, of all states from the week of March 2 to the week of April 6 (the week of the largest number of clusters).
 
-[Download paper here](http://academicpages.github.io/files/paper1.pdf)
-
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
+[Download paper here](https://arxiv.org/pdf/2010.03707.pdf)

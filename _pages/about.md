@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Anput me"
+title: "About me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -17,3 +17,7 @@ News
 * 2023 - Paper accepted to Findings of EMNLP 2023! "Leveraging Multiple Teachers for Test-Time Adaptation of Language-Guided Classifiers". [[pdf]](https://openreview.net/forum?id=ZE6fN4OO18)
 * 2023 - Paper accepted to EMNLP 2023! "When Do Decompositions Help for Machine Reading?". [[pdf]](https://arxiv.org/abs/2212.10019)
 * 2023 - Joined the NLP lab at TAMU.
+
+Pika
+======
+Hi! This is Pika, the most handsome Alaskan Malamute on this planet (according to my dad). My dad uses this website mainly for academic purposes, but I have convinced him to also share my cutness here. My birthday is 06/19/2021. I love food and playing with hOOman!
