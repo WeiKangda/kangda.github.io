@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-![NLP cloud](NLP.jpg){: .align-right width="300px"}
+![NLP cloud](/images/NLP.jpg){: .align-right width="300px"}
 
 Howdy, I am a first-year PhD student in the [Natural Language Processing Group](https://nlp.cs.tamu.edu) at Texas A&M University, where I am advised by Professor [Ruihong Huang](https://people.engr.tamu.edu/huangrh/index.html). Before becoming an Aggie, I graduated with a BS/MS degree in Computer Science from the University of North Carolina at Chapel Hill, where I was advised by Professor [Shashank Srivastava](https://www.ssriva.com).
 
@@ -24,4 +24,5 @@ News
 Pika
 ======
 Hi! This is Pika, the most handsome Alaskan Malamute on this planet (according to my dad). My dad uses this website mainly for academic purposes, but I have convinced him to also share my cutness here. My birthday is 06/19/2021. I love food and playing with hOOman!
-![Pika](pika.jpg)
+![Pika](/images/pika.jpg)
+![e](/images/500x300.png)
