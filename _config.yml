@@ -81,10 +81,10 @@ analytics:
 # Site Author
 author:
   name             : "Kangda Wei"
-  avatar           : "pika.png"
+  avatar           : "pika.jpg"
   bio              : "Natural Language Processing"
-  location         : "College Station, TX"
-  employer         : "Department of Computer Science & Engineering, Texas A&M University"
+  location         : "L.F. Peterson Building, \nRoom 330, 435 Nagle St,\n College Station, TX 77843"
+  employer         : "Department of Computer \nScience & Engineering, \nTexas A&M University"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=hQ1bio8AAAAJ&hl=en&oi=ao"
   email            : "kangda@tamu.edu"
