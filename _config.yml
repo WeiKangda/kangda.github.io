@@ -81,13 +81,13 @@ analytics:
 # Site Author
 author:
   name             : "Kangda Wei"
-  avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
+  avatar           : "pika.png"
+  bio              : "Natural Language Processing"
   location         : "College Station, TX"
-  employer         :
+  employer         : "Department of Computer Science & Engineering, Texas A&M University"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=hQ1bio8AAAAJ&hl=en&oi=ao"
-  email            :
+  email            : "kangda@tamu.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
