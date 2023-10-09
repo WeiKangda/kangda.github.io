@@ -1,15 +1,13 @@
 ---
-title: "Paper Title Number 2"
+title: "Compositional Generalization for Kinship Prediction through Data Augmentation"
 collection: publications
 permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
-date: 2010-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper2.pdf'
-citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
+excerpt: 'Transformer-based models have shown promising performance in numerous NLP tasks. However, recent work has shown the limitation of such models in showing compositional generalization, which requires models to generalize to novel compositions of known concepts. In this work, we explore two strategies for compositional general- ization on the task of kinship prediction from stories: (1) data augmentation and (2) predicting and using intermediate structured representation (in form of kinship graphs). Our experiments show that data augmentation boosts generalization performance by around 20% on average relative to a baseline model from prior work not using these strategies. However, predicting and using intermediate kinship graphs leads to a deterioration in the generalization of kinship prediction by around 50% on average relative to models that only leverage data augmentation.'
+date: 2022-07-01
+venue: 'Proceedings of the 4th Workshop of Narrative Understanding (WNU2022)'
+paperurl: 'https://aclanthology.org/2022.wnu-1.2.pdf'
+citation:
 ---
-This paper is about the number 2. The number 3 is left for future work.
+Transformer-based models have shown promising performance in numerous NLP tasks. However, recent work has shown the limitation of such models in showing compositional generalization, which requires models to generalize to novel compositions of known concepts. In this work, we explore two strategies for compositional general- ization on the task of kinship prediction from stories: (1) data augmentation and (2) predicting and using intermediate structured representation (in form of kinship graphs). Our experiments show that data augmentation boosts generalization performance by around 20% on average relative to a baseline model from prior work not using these strategies. However, predicting and using intermediate kinship graphs leads to a deterioration in the generalization of kinship prediction by around 50% on average relative to models that only leverage data augmentation.
 
-[Download paper here](http://academicpages.github.io/files/paper2.pdf)
-
-Recommended citation: Your Name, You. (2010). "Paper Title Number 2." <i>Journal 1</i>. 1(2).
+[Download paper here](https://aclanthology.org/2022.wnu-1.2.pdf)
