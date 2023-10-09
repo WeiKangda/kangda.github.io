@@ -17,6 +17,8 @@ News
 * 2023 - Paper accepted to Findings of EMNLP 2023! "Leveraging Multiple Teachers for Test-Time Adaptation of Language-Guided Classifiers". [[pdf]](https://openreview.net/forum?id=ZE6fN4OO18)
 * 2023 - Paper accepted to EMNLP 2023! "When Do Decompositions Help for Machine Reading?". [[pdf]](https://arxiv.org/abs/2212.10019)
 * 2023 - Joined the NLP lab at TAMU.
+* 2023 - Completed MS in Computer Science at UNC-Chapel Hill.
+* 2022 - Completed BS in Computer Science and BS in Statstics at UNC-Chapel Hill.
 
 Pika
 ======
