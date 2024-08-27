@@ -24,8 +24,8 @@ Research Experience
 Industry Experience
 ======
 * Robert Bosch Research and Technology Center North America, Applide Scientist Intern, Sunnyvale CA, May 2024 - Aug 2024
-  Large Language Models Research, Gemini Team, Mentor: Zhengyu Zhou, Bingqing Wang, Jun Araki, Lukas Lange, Zhe Feng
-  ßTopic: Video Understanding with Multi-Modal Multi-Agent System
+  Mentor: Zhengyu Zhou, Bingqing Wang, Jun Araki, Lukas Lange, Zhe Feng
+  Topic: Video Understanding with Multi-Modal Multi-Agent System
 
 News
 ======
