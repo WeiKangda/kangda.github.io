@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Howdy, I am a first-year PhD student in the [Natural Language Processing Group](https://nlp.cs.tamu.edu) at Texas A&M University, where I am advised by Professor [Ruihong Huang](https://people.engr.tamu.edu/huangrh/index.html). Before becoming an Aggie, I graduated with a BS/MS degree in Computer Science from the University of North Carolina at Chapel Hill, where I was advised by Professor [Shashank Srivastava](https://www.ssriva.com).
+Howdy, I am a second-year PhD student in the [Natural Language Processing Group](https://nlp.cs.tamu.edu) at Texas A&M University, where I am advised by Professor [Ruihong Huang](https://people.engr.tamu.edu/huangrh/index.html). Before becoming an Aggie, I graduated with a BS/MS degree in Computer Science from the University of North Carolina at Chapel Hill, where I was advised by Professor [Shashank Srivastava](https://www.ssriva.com).
 
 My research interests center on Natural Language Processing, Large Language Model, Multi-Modal, Multi-Agent Systems, Video Understanding.
 ![nlp](https://weikangda.github.io/kangda.github.io/images/NLP.jpg)
