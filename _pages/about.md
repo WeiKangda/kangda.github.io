@@ -16,16 +16,16 @@ My research interests center on Natural Language Processing, Large Language Mode
 Research Experience
 ======
 * Texas A&M University, Research Assistant, College Station TX, Aug 2023 - present <br>
-    Natural Language Processing Lab, Advisor: Prof. Ruihong Huang
+  Natural Language Processing Lab, Advisor: Prof. Ruihong Huang
 
-* University of North Carolina at Chapel Hill, Research Assistant, Chapel Hill NC, Aug 2021 - Jun 2023 <br>
-    Learning from Language Lab, Advisor: Prof. Shashank Srivastava
+* University of North Carolina, Research Assistant, Chapel Hill NC, Aug 2021 - Jun 2023 <br>
+  Learning from Language Lab, Advisor: Prof. Shashank Srivastava
 
 Industry Experience
 ======
-* Robert Bosch Research and Technology Center North America, Applide Scientist Intern, Sunnyvale CA, May 2024 - Aug 2024 <br>
-    Mentor: Zhengyu Zhou, Bingqing Wang, Jun Araki, Lukas Lange, Zhe Feng <br>
-    Topic: Video Understanding with Multi-Modal Multi-Agent System
+* Bosch Applied Scientist Intern, Sunnyvale CA, May 2024 - Aug 2024 <br>
+  Mentor: Zhengyu Zhou, Bingqing Wang, Jun Araki, Lukas Lange, Zhe Feng <br>
+  Topic: Video Understanding with Multi-Modal Multi-Agent System
 
 News
 ======
