@@ -10,11 +10,16 @@ redirect_from:
 
 Howdy, I am a first-year PhD student in the [Natural Language Processing Group](https://nlp.cs.tamu.edu) at Texas A&M University, where I am advised by Professor [Ruihong Huang](https://people.engr.tamu.edu/huangrh/index.html). Before becoming an Aggie, I graduated with a BS/MS degree in Computer Science from the University of North Carolina at Chapel Hill, where I was advised by Professor [Shashank Srivastava](https://www.ssriva.com).
 
-My research interests center on interpretable machine learning and natural language processing.
+My research interests center on Natural Language Processing, Large Language Model, Multi-Modal, Multi-Agent Systems, Video Understanding.
 ![nlp](https://weikangda.github.io/kangda.github.io/images/NLP.jpg)
+
+Research Experience
+======
+
 
 News
 ======
+* 2024 - Joined Robert Bosch Research and Technology Center North America as Applied Scientist Intern
 * 2023 - Paper accepted to Findings of EMNLP 2023! "Leveraging Multiple Teachers for Test-Time Adaptation of Language-Guided Classifiers". [[pdf]](https://openreview.net/forum?id=ZE6fN4OO18)
 * 2023 - Paper accepted to EMNLP 2023! "When Do Decompositions Help for Machine Reading?". [[pdf]](https://arxiv.org/abs/2212.10019)
 * 2023 - Joined the NLP lab at TAMU.
