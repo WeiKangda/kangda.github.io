@@ -6,7 +6,5 @@ excerpt:
 date: 2023-10-06
 venue: 'Findings of the Empirical Methods in Natural Language Processing 2023'
 author: Kangda Wei, Sayan Ghosh, Rakesh Menon, Shashank Srivastava
-paperurl: 
+paperurl: https://aclanthology.org/2023.findings-emnlp.471
 citation:
----
-[Download paper here](https://aclanthology.org/2023.findings-emnlp.471)

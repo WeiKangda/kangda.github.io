@@ -12,18 +12,17 @@
     <!-- List number -->
     <span>{{ forloop.index }}.</span>
     
-    <!-- Title -->
-    <h2 class="archive__item-title" itemprop="headline">
-      {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a>
-      {% else %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
-      {% endif %}
-    </h2>
+    <!-- Title (no hyperlink) -->
+    <h2 class="archive__item-title" itemprop="headline">{{ title }}</h2>
     
     <!-- Author and Venue -->
     {% if post.collection == 'publications' %}
       <p>{{ post.author }}, Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
+    {% endif %}
+    
+    <!-- PDF Link -->
+    {% if post.paperurl %}
+      <p><a href="{{ post.paperurl }}"><u>[PDF]</u></a></p>
     {% endif %}
     
   </article>

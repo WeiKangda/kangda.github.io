@@ -6,7 +6,5 @@ excerpt:
 date: 2020-12-01
 venue: '20th and 21st Joint COTA International Conference of Transportation Professionals'
 author: Songhe Wang, Kangda Wei, Lei Lin, Weizi Li
-paperurl: https://arxiv.org/pdf/2010.03707.pdf
-citation: 
----
-[Download paper here](https://arxiv.org/pdf/2010.03707.pdf)
+paperurl: https://arxiv.org/pdf/2010.03707.pdf)
+citation:
