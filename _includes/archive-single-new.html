@@ -10,14 +10,8 @@
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
 
     <!-- List number -->
-    <span>{{ forloop.index }}.</span>
-    
-    <!-- Title -->
-    <h2 class="archive__item-title" itemprop="headline">
-      {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a>
-      {% else %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+    <span>{{ forloop.index }}.</span> <h2 class="archive__item-title" itemprop="headline">
+      {{ title }}
       {% endif %}
     </h2>
     
