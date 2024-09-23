@@ -16,7 +16,15 @@
     
     <!-- Author and Venue -->
     {% if post.collection == 'publications' %}
-      <p>{{ post.author }}, <i>{{ post.venue }}</i>, <a href="{{ post.paperurl }}">[PDF]</a></p>
+      <p>{% assign author_list = post.author | split: "," %}
+        {% for author in author_list %}
+          {% if author contains "Kangda Wei" %}
+            <strong>{{ author }}</strong>
+          {% else %}
+            {{ author }}
+          {% endif %}
+          {% if forloop.last == false %}, {% endif %}
+        {% endfor %}, <i>{{ post.venue }}</i>, <a href="{{ post.paperurl }}">[PDF]</a></p>
     {% endif %}
     
   </article>
