@@ -12,12 +12,11 @@
     <!-- List number -->
     <span>{{ forloop.index }}.</span> <h2 class="archive__item-title" itemprop="headline">
       {{ title }}
-      {% endif %}
     </h2>
     
     <!-- Author and Venue -->
     {% if post.collection == 'publications' %}
-      <p>{{ post.author }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
+      <p>{{ post.author }}, <i>{{ post.venue }}</i>, <a href="{{ post.paperurl }}">[PDF]</a></p>
     {% endif %}
     
   </article>
