@@ -1,5 +1,5 @@
 ---
-title: "Multi-Agent Video Under- standing for Advanced Indexing of Lecture Videos"
+title: "Multi-Agent Video Understanding for Advanced Indexing of Lecture Videos"
 collection: publications
 permalink: /publication/2023-10-01-paper-title-number-8
 excerpt:
