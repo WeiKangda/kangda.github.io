@@ -9,9 +9,13 @@
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
 
-    <span>{{ forloop.index }}.</span> <h2 class="archive__item-title" itemprop="headline">
+    <!-- List number -->
+    <span>{{ forloop.index }}.</span>
+    
+    <!-- Title -->
+    <h2 class="archive__item-title" itemprop="headline">
       {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}
+        <a href="{{ post.link }}">{{ title }}</a>
       {% else %}
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
@@ -19,7 +23,7 @@
     
     <!-- Author and Venue -->
     {% if post.collection == 'publications' %}
-      <p>{{ post.author }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
+      <p>{{ post.author }}, Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
     {% endif %}
     
   </article>
