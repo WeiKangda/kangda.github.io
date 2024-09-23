@@ -10,7 +10,11 @@
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
 
     <span>{{ forloop.index }}.</span> <h2 class="archive__item-title" itemprop="headline">
-      {{ title }}
+      {% if post.link %}
+        <a href="{{ post.link }}">{{ title }}
+      {% else %}
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+      {% endif %}
     </h2>
     
     <!-- Author and Venue -->
