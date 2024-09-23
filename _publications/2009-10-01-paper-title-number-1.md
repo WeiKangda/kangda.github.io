@@ -1,5 +1,5 @@
 ---
-title: "1. Spatial-temporal Analysis of COVID-19's Impact on Human Mobility: the Case of the United States"
+title: "Spatial-temporal Analysis of COVID-19's Impact on Human Mobility: the Case of the United States"
 collection: publications
 permalink: /publication/2009-10-01-paper-title-number-1
 excerpt:

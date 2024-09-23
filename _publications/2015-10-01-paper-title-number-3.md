@@ -1,5 +1,5 @@
 ---
-title: "3. When Do Decompositions Help for Machine Reading?"
+title: "When Do Decompositions Help for Machine Reading?"
 collection: publications
 permalink: /publication/2015-10-01-paper-title-number-3
 excerpt: 

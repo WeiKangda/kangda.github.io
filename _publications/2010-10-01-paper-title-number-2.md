@@ -1,5 +1,5 @@
 ---
-title: "2. Compositional Generalization for Kinship Prediction through Data Augmentation"
+title: "Compositional Generalization for Kinship Prediction through Data Augmentation"
 collection: publications
 permalink: /publication/2010-10-01-paper-title-number-2
 excerpt:
