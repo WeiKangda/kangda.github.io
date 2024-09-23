@@ -29,9 +29,11 @@ Industry Experience
 
 News
 ======
+* 2024 - Paper accepted to Findings of EMNLP 2024! "Are LLMs Good Annotators for Discourse-level Event Relation Extraction?". [[pdf]](https://lnkd.in/gctZAT-z)
+* 2024 - Paper accepted to EMNLP 2024! "LLMs Assist NLP Researchers: Critique Paper (Meta-)Reviewing". [[pdf]](https://lnkd.in/gRJ6CiCE)
 * 2024 - Joined Robert Bosch Research and Technology Center North America as Applied Scientist Intern
-* 2023 - Paper accepted to Findings of EMNLP 2023! "Leveraging Multiple Teachers for Test-Time Adaptation of Language-Guided Classifiers". [[pdf]](https://openreview.net/forum?id=ZE6fN4OO18)
-* 2023 - Paper accepted to EMNLP 2023! "When Do Decompositions Help for Machine Reading?". [[pdf]](https://arxiv.org/abs/2212.10019)
+* 2023 - Paper accepted to Findings of EMNLP 2023! "Leveraging Multiple Teachers for Test-Time Adaptation of Language-Guided Classifiers". [[pdf]](https://aclanthology.org/2023.findings-emnlp.471/)
+* 2023 - Paper accepted to EMNLP 2023! "When Do Decompositions Help for Machine Reading?". [[pdf]](https://aclanthology.org/2023.emnlp-main.219/)
 * 2023 - Joined the NLP lab at TAMU.
 * 2023 - Completed MS in Computer Science at UNC-Chapel Hill.
 * 2022 - Completed BS in Computer Science and BS in Statstics at UNC-Chapel Hill.
