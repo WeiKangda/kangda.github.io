@@ -1,5 +1,5 @@
 ---
-title: "4. Leveraging Multiple Teachers for Test-Time Adaptation of Language-Guided Classifiers"
+title: "Leveraging Multiple Teachers for Test-Time Adaptation of Language-Guided Classifiers"
 collection: publications
 permalink: /publication/2023-10-01-paper-title-number-4
 excerpt:

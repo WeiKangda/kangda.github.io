@@ -1,5 +1,5 @@
 ---
-title: "6. Are LLMs Good Annotators for Discourse-level Event Relation Extraction?"
+title: "Are LLMs Good Annotators for Discourse-level Event Relation Extraction?"
 collection: publications
 permalink:
 excerpt:
