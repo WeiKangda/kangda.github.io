@@ -29,9 +29,11 @@ Industry Experience
 
 News
 ======
+* 2024 - Paper accepted to IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2025! "UALBench: The First Comprephensive Unusual Activity Localization Benchmark". [[pdf]](https://arxiv.org/pdf/2410.01180)
 * 2024 - Paper accepted to Findings of EMNLP 2024! "Are LLMs Good Annotators for Discourse-level Event Relation Extraction?". [[pdf]](https://lnkd.in/gctZAT-z)
 * 2024 - Paper accepted to EMNLP 2024! "LLMs Assist NLP Researchers: Critique Paper (Meta-)Reviewing". [[pdf]](https://lnkd.in/gRJ6CiCE)
 * 2024 - Joined Robert Bosch Research and Technology Center North America as Applied Scientist Intern
+* 2024 - Passed my Ph.D Qualification Exam (98 percentile) at Texas A&M
 * 2023 - Paper accepted to Findings of EMNLP 2023! "Leveraging Multiple Teachers for Test-Time Adaptation of Language-Guided Classifiers". [[pdf]](https://aclanthology.org/2023.findings-emnlp.471/)
 * 2023 - Paper accepted to EMNLP 2023! "When Do Decompositions Help for Machine Reading?". [[pdf]](https://aclanthology.org/2023.emnlp-main.219/)
 * 2023 - Joined the NLP lab at TAMU.
