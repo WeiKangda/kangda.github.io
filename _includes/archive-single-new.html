@@ -26,11 +26,12 @@
           {% if forloop.last == false %}, {% endif %}
         {% endfor %}, <i>{{ post.venue }}</i>
         
-        {% if post.paperurl %}<a href="{{ post.paperurl }}">[PDF]</a>{% endif %}
-        {% if post.data %}<a href="{{ post.data }}">[Data]</a>{% endif %}
-        {% if post.code %}<a href="{{ post.code }}">[Code]</a>{% endif %}
+        {% if post.paperurl %}📄 <a href="{{ post.paperurl }}">[PDF]</a>{% endif %}
+        {% if post.data %}📊 <a href="{{ post.data }}">[Data]</a>{% endif %}
+        {% if post.code %}💻 <a href="{{ post.code }}">[Code]</a>{% endif %}
       </p>
     {% endif %}
     
   </article>
 </div>
+
