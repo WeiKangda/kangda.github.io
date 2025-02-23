@@ -8,4 +8,6 @@ venue: IEEE/CVF Winter Conference on Applications of Computer Vision 2025
 author: Hasnat Md Abdullah, Tian Liu, Kangda Wei, Shu Kong, Ruihong Huang
 paperurl: https://arxiv.org/pdf/2410.01180
 citation:
+code: https://github.com/Hasnat79/UAL_Bench
+data: https://huggingface.co/datasets/hasnat79/ual_bench
 ---
