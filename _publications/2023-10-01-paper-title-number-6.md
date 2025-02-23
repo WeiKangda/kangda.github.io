@@ -8,4 +8,5 @@ venue: 'Findings of the Empirical Methods in Natural Language Processing 2024'
 author: Kangda Wei, Aayush Gautam, Ruihong Huang
 paperurl: https://lnkd.in/gctZAT-z
 citation:
+code: https://github.com/WeiKangda/LLM-ERE
 ---
