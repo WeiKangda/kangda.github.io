@@ -6,7 +6,7 @@ excerpt:
 date: 2025-2-15
 venue: Preprint
 author: Kangda Wei, Xi Shi, Jonathan Tong, Sai Ramana Reddy, Anandhavelu Natarajan, Rajiv Jain, Aparna Garimella, Ruihong Huang
-paperurl: https://arxiv.org/pdf/2502.12509
+paperurl: https://arxiv.org/abs/2502.12509
 citation:
 code: https://github.com/WeiKangda/LegalCore
 data: https://github.com/WeiKangda/LegalCore/tree/main/data

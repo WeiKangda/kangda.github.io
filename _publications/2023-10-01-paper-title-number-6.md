@@ -6,7 +6,7 @@ excerpt:
 date: 2024-9-23
 venue: 'Findings of the Empirical Methods in Natural Language Processing 2024'
 author: Kangda Wei, Aayush Gautam, Ruihong Huang
-paperurl: https://arxiv.org/pdf/2407.19568v3
+paperurl: https://aclanthology.org/2024.findings-emnlp.1/
 citation:
 code: https://github.com/WeiKangda/LLM-ERE
 ---

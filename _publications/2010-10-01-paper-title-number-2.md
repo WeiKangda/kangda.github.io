@@ -6,6 +6,6 @@ excerpt:
 date: 2022-07-01
 venue: 'Proceedings of the 4th Workshop of Narrative Understanding (WNU2022)'
 author: Kangda Wei, Sayan Ghosh, Shashank Srivastava
-paperurl: https://aclanthology.org/2022.wnu-1.2.pdf
+paperurl: https://aclanthology.org/2022.wnu-1.2/
 citation:
 ---
