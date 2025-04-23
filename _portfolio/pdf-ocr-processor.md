@@ -3,7 +3,6 @@ title: "PDF OCR Processor"
 excerpt: "A powerful PDF processing tool that uses Mistral AI's OCR capabilities to extract text and images from PDF documents."
 collection: portfolio
 header:
-  image: /images/mistral_ocr_logo.jpg
   teaser: /images/mistral_ocr_logo.jpg
 ---
 
