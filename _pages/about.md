@@ -29,8 +29,8 @@ Industry Experience
 
 News
 ======
-* 2025 - Paper accepted to Findings of Association for Computational Linguistics 2025! "LegalCore: A Dataset for Event Coreference Resolution in Legal Documents". [[pdf]](https://arxiv.org/abs/2502.12509)
-* 2025 - Paper accepted to NLP4PosImpact of Association for Computational Linguistics 2025! "CliME: Evaluating Multimodal Climate Discourse on Social Media and the Climate Alignment Quotient (CAQ)". [[pdf]](https://arxiv.org/abs/2504.03906)
+* 2025 - Paper accepted to Findings of Association for Computational Linguistics 2025! "LegalCore: A Dataset for Event Coreference Resolution in Legal Documents". [[pdf]](https://arxiv.org/abs/2502.12509) [[code]](https://github.com/WeiKangda/LegalCore)
+* 2025 - Paper accepted to NLP4PosImpact of Association for Computational Linguistics 2025! "CliME: Evaluating Multimodal Climate Discourse on Social Media and the Climate Alignment Quotient (CAQ)". [[pdf]](https://arxiv.org/abs/2504.03906)[[code]](https://github.com/abhilekhborah/CliME)[[data]](https://huggingface.co/datasets/climedataset/CliME)
 * 2024 - Paper accepted to IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2025! "UALBench: The First Comprephensive Unusual Activity Localization Benchmark". [[pdf]](https://arxiv.org/pdf/2410.01180)
 * 2024 - Paper accepted to Findings of EMNLP 2024! "Are LLMs Good Annotators for Discourse-level Event Relation Extraction?". [[pdf]](https://lnkd.in/gctZAT-z)
 * 2024 - Paper accepted to EMNLP 2024! "LLMs Assist NLP Researchers: Critique Paper (Meta-)Reviewing". [[pdf]](https://lnkd.in/gRJ6CiCE)
