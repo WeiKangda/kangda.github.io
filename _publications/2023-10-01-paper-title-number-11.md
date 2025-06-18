@@ -6,7 +6,7 @@ excerpt:
 date: 2025-5-22
 venue: Preprint
 author: Kangda Wei, Hasnat Md Abdullah, Ruihong Huang
-paperurl:
+paperurl: https://arxiv.org/abs/2505.17217
 citation:
 code: 
 data:
