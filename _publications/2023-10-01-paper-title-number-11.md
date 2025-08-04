@@ -8,6 +8,6 @@ venue: Preprint
 author: Kangda Wei, Hasnat Md Abdullah, Ruihong Huang
 paperurl: https://arxiv.org/abs/2505.17217
 citation:
-code: 
-data:
+code: https://github.com/WeiKangda/LLMs-Exploratory-Bias-Mitigation
+data: https://github.com/WeiKangda/LLMs-Exploratory-Bias-Mitigation/tree/main/StoryGeneration
 --- 
