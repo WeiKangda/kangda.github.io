@@ -1,0 +1,43 @@
+{% include base_path %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<div class="teaching-item">
+  <article class="teaching-content" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <div class="teaching-header">
+      <h3 class="teaching-title" itemprop="headline">
+        {{ title }}
+      </h3>
+      
+      <div class="teaching-meta">
+        {% if post.date %}
+          <span class="teaching-date">{{ post.date | date: "%B %Y" }}</span>
+        {% endif %}
+        {% if post.type %}
+          <span class="teaching-type">{{ post.type }}</span>
+        {% endif %}
+      </div>
+    </div>
+    
+    {% if post.venue %}
+      <div class="teaching-venue">
+        <strong>{{ post.venue }}</strong>
+        {% if post.location %}
+          <span class="location"> | {{ post.location }}</span>
+        {% endif %}
+      </div>
+    {% endif %}
+    
+    {% if post.content %}
+      <div class="teaching-description">
+        {{ post.content | markdownify }}
+      </div>
+    {% endif %}
+    
+  </article>
+</div>

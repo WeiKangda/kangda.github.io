@@ -1,12 +1,19 @@
 ---
 layout: archive
-title: "Teaching"
+title: "Teaching Experience"
 permalink: /teaching/
 author_profile: true
 ---
 
+<div class="teaching-header">
+  <p class="teaching-intro">I have served as a Teaching Assistant for undergraduate computer science courses, helping students understand fundamental concepts in systems and networking.</p>
+</div>
+
 {% include base_path %}
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<div class="teaching-container">
+  {% assign sorted_teaching = site.teaching | sort: 'date' | reverse %}
+  {% for post in sorted_teaching %}
+    {% include archive-single-teaching.html %}
+  {% endfor %}
+</div>

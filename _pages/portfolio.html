@@ -5,11 +5,15 @@ permalink: /portfolio/
 author_profile: true
 ---
 
+<div class="portfolio-header">
+  <p class="portfolio-intro">A collection of my software projects and technical contributions, showcasing my work in natural language processing, machine learning, and software development.</p>
+</div>
+
 {% include base_path %}
 
-<div class="grid__wrapper">
+<div class="portfolio-container">
   {% for post in site.portfolio %}
-    {% include archive-single.html type="grid" %}
+    {% include archive-single-portfolio.html %}
   {% endfor %}
 </div>
 

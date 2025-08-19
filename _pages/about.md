@@ -63,6 +63,36 @@ I am a second-year PhD student in the [Natural Language Processing Group](https:
   </div>
 </div>
 
+## Education
+
+<div class="education-timeline">
+  <div class="education-item">
+    <div class="education-date">2023 - Present</div>
+    <div class="education-content">
+      <h4>Ph.D. in Computer Science</h4>
+      <p class="institution">Texas A&M University, College Station TX</p>
+      <p class="details">Natural Language Processing | Advisor: Prof. Ruihong Huang</p>
+      <p class="achievement">• Passed Qualification Exam at 98th percentile (2024)</p>
+    </div>
+  </div>
+  <div class="education-item">
+    <div class="education-date">2021 - 2023</div>
+    <div class="education-content">
+      <h4>Master of Science in Computer Science</h4>
+      <p class="institution">University of North Carolina at Chapel Hill, NC</p>
+      <p class="details">Machine Learning & Natural Language Processing | Advisor: Prof. Shashank Srivastava</p>
+    </div>
+  </div>
+  <div class="education-item">
+    <div class="education-date">2018 - 2022</div>
+    <div class="education-content">
+      <h4>Bachelor of Science in Computer Science & Statistics</h4>
+      <p class="institution">University of North Carolina at Chapel Hill, NC</p>
+      <p class="details">Double Major: Computer Science and Statistics</p>
+    </div>
+  </div>
+</div>
+
 ## Industry Experience
 
 <div class="experience-timeline">
@@ -97,19 +127,8 @@ I am a second-year PhD student in the [Natural Language Processing Group](https:
   </div>
   <div class="news-item">
     <span class="news-date">2024</span>
-    <span class="news-badge emnlp">EMNLP 2024</span>
-    <p>Two papers accepted to EMNLP 2024 (Main + Findings): Event Relation Extraction and Meta-Reviewing</p>
-  </div>
-  <div class="news-item">
-    <span class="news-date">2024</span>
     <span class="news-badge achievement">Achievement</span>
     <p>Passed Ph.D Qualification Exam at 98th percentile</p>
-  </div>
-  <div class="news-item">
-    <span class="news-date">2023</span>
-    <span class="news-badge emnlp">EMNLP 2023</span>
-    <p>Two papers accepted to EMNLP 2023 on Machine Reading and Test-Time Adaptation</p>
-  </div>
 </div>
 
 <details>
