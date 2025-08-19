@@ -8,36 +8,116 @@ redirect_from:
   - /about.html
 ---
 
-Howdy, I am a second-year PhD student in the [Natural Language Processing Group](https://nlp.cs.tamu.edu) at Texas A&M University, where I am advised by Professor [Ruihong Huang](https://people.engr.tamu.edu/huangrh/index.html). Before becoming an Aggie, I graduated with a BS/MS degree in Computer Science from the University of North Carolina at Chapel Hill, where I was advised by Professor [Shashank Srivastava](https://www.ssriva.com).
+<div class="hero-section">
+  <h2 class="welcome-text">Welcome! I'm Kangda Wei</h2>
+  <p class="tagline">PhD Student in Natural Language Processing at Texas A&M University</p>
+</div>
 
-My research interests center on Natural Language Processing, Large Language Model, Multi-Modal, Multi-Agent Systems, Video Understanding.
-![nlp](https://weikangda.github.io/kangda.github.io/images/NLP.jpg)
+## About Me
 
-Research Experience
-======
-* **Texas A&M University**, Research Assistant, College Station TX, Aug 2023 - present <br>
-  Natural Language Processing Lab, Advisor: Prof. Ruihong Huang
+I am a second-year PhD student in the [Natural Language Processing Group](https://nlp.cs.tamu.edu) at Texas A&M University, where I am advised by Professor [Ruihong Huang](https://people.engr.tamu.edu/huangrh/index.html). Before becoming an Aggie, I graduated with a BS/MS degree in Computer Science from the University of North Carolina at Chapel Hill, where I was advised by Professor [Shashank Srivastava](https://www.ssriva.com).
 
-* **University of North Carolina**, Research Assistant, Chapel Hill NC, Aug 2021 - Jun 2023 <br>
-  Learning from Language Lab, Advisor: Prof. Shashank Srivastava
+## Research Interests
 
-Industry Experience
-======
-* **Bosch**, Applied Scientist Intern, Sunnyvale CA, May 2024 - Aug 2024 <br>
-  Mentor: Zhengyu Zhou, Bingqing Wang, Jun Araki, Lukas Lange, Zhe Feng <br>
-  Topic: Video Understanding with Multi-Modal Multi-Agent System
+<div class="research-interests-grid">
+  <div class="interest-card">
+    <h4>🤖 Large Language Models</h4>
+    <p>Exploring capabilities and applications of LLMs in various domains</p>
+  </div>
+  <div class="interest-card">
+    <h4>📚 Natural Language Processing</h4>
+    <p>Advancing language understanding and generation techniques</p>
+  </div>
+  <div class="interest-card">
+    <h4>🎯 Multi-Modal Learning</h4>
+    <p>Integrating vision and language for comprehensive AI systems</p>
+  </div>
+  <div class="interest-card">
+    <h4>🤝 Multi-Agent Systems</h4>
+    <p>Developing collaborative AI agents for complex problem solving</p>
+  </div>
+  <div class="interest-card">
+    <h4>🎬 Video Understanding</h4>
+    <p>Analyzing and interpreting temporal visual content</p>
+  </div>
+</div>
 
-News
-======
-* 2025 - Paper accepted to Findings of Association for Computational Linguistics 2025! "LegalCore: A Dataset for Event Coreference Resolution in Legal Documents". [[pdf]](https://arxiv.org/abs/2502.12509) [[code]](https://github.com/WeiKangda/LegalCore)
-* 2025 - Paper accepted to NLP4PosImpact of Association for Computational Linguistics 2025! "CliME: Evaluating Multimodal Climate Discourse on Social Media and the Climate Alignment Quotient (CAQ)". [[pdf]](https://arxiv.org/abs/2504.03906)[[code]](https://github.com/abhilekhborah/CliME)[[data]](https://huggingface.co/datasets/climedataset/CliME)
-* 2024 - Paper accepted to IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2025! "UALBench: The First Comprephensive Unusual Activity Localization Benchmark". [[pdf]](https://arxiv.org/pdf/2410.01180)
-* 2024 - Paper accepted to Findings of EMNLP 2024! "Are LLMs Good Annotators for Discourse-level Event Relation Extraction?". [[pdf]](https://lnkd.in/gctZAT-z)
-* 2024 - Paper accepted to EMNLP 2024! "LLMs Assist NLP Researchers: Critique Paper (Meta-)Reviewing". [[pdf]](https://lnkd.in/gRJ6CiCE)
-* 2024 - Joined Robert Bosch Research and Technology Center North America as Applied Scientist Intern
-* 2024 - Passed my Ph.D Qualification Exam (98 percentile) at Texas A&M
-* 2023 - Paper accepted to Findings of EMNLP 2023! "Leveraging Multiple Teachers for Test-Time Adaptation of Language-Guided Classifiers". [[pdf]](https://aclanthology.org/2023.findings-emnlp.471/)
-* 2023 - Paper accepted to EMNLP 2023! "When Do Decompositions Help for Machine Reading?". [[pdf]](https://aclanthology.org/2023.emnlp-main.219/)
-* 2023 - Joined the NLP lab at TAMU.
-* 2023 - Completed MS in Computer Science at UNC-Chapel Hill.
-* 2022 - Completed BS in Computer Science and BS in Statstics at UNC-Chapel Hill.
+## Research Experience
+
+<div class="experience-timeline">
+  <div class="experience-item">
+    <div class="experience-date">Aug 2023 - Present</div>
+    <div class="experience-content">
+      <h4>Research Assistant</h4>
+      <p class="institution">Texas A&M University, College Station TX</p>
+      <p class="details">Natural Language Processing Lab | Advisor: Prof. Ruihong Huang</p>
+    </div>
+  </div>
+  <div class="experience-item">
+    <div class="experience-date">Aug 2021 - Jun 2023</div>
+    <div class="experience-content">
+      <h4>Research Assistant</h4>
+      <p class="institution">University of North Carolina, Chapel Hill NC</p>
+      <p class="details">Learning from Language Lab | Advisor: Prof. Shashank Srivastava</p>
+    </div>
+  </div>
+</div>
+
+## Industry Experience
+
+<div class="experience-timeline">
+  <div class="experience-item">
+    <div class="experience-date">May 2024 - Aug 2024</div>
+    <div class="experience-content">
+      <h4>Applied Scientist Intern</h4>
+      <p class="institution">Bosch Research, Sunnyvale CA</p>
+      <p class="details">Topic: Video Understanding with Multi-Modal Multi-Agent System</p>
+      <p class="mentors">Mentors: Zhengyu Zhou, Bingqing Wang, Jun Araki, Lukas Lange, Zhe Feng</p>
+    </div>
+  </div>
+</div>
+
+## Recent News
+
+<div class="news-container">
+  <div class="news-item">
+    <span class="news-date">2025</span>
+    <span class="news-badge acl">ACL 2025</span>
+    <p>Paper accepted to Findings of ACL 2025: "LegalCore: A Dataset for Event Coreference Resolution in Legal Documents" <a href="https://arxiv.org/abs/2502.12509">[PDF]</a> <a href="https://github.com/WeiKangda/LegalCore">[Code]</a></p>
+  </div>
+  <div class="news-item">
+    <span class="news-date">2025</span>
+    <span class="news-badge acl">ACL 2025</span>
+    <p>Paper accepted to NLP4PosImpact: "CliME: Evaluating Multimodal Climate Discourse on Social Media" <a href="https://arxiv.org/abs/2504.03906">[PDF]</a> <a href="https://github.com/abhilekhborah/CliME">[Code]</a> <a href="https://huggingface.co/datasets/climedataset/CliME">[Data]</a></p>
+  </div>
+  <div class="news-item">
+    <span class="news-date">2024</span>
+    <span class="news-badge wacv">WACV 2025</span>
+    <p>Paper accepted: "UALBench: The First Comprehensive Unusual Activity Localization Benchmark" <a href="https://arxiv.org/pdf/2410.01180">[PDF]</a></p>
+  </div>
+  <div class="news-item">
+    <span class="news-date">2024</span>
+    <span class="news-badge emnlp">EMNLP 2024</span>
+    <p>Two papers accepted to EMNLP 2024 (Main + Findings): Event Relation Extraction and Meta-Reviewing</p>
+  </div>
+  <div class="news-item">
+    <span class="news-date">2024</span>
+    <span class="news-badge achievement">Achievement</span>
+    <p>Passed Ph.D Qualification Exam at 98th percentile</p>
+  </div>
+  <div class="news-item">
+    <span class="news-date">2023</span>
+    <span class="news-badge emnlp">EMNLP 2023</span>
+    <p>Two papers accepted to EMNLP 2023 on Machine Reading and Test-Time Adaptation</p>
+  </div>
+</div>
+
+<details>
+  <summary>Show more news...</summary>
+  <div class="older-news">
+    <p>• 2024 - Joined Bosch Research as Applied Scientist Intern</p>
+    <p>• 2023 - Joined the NLP lab at Texas A&M University</p>
+    <p>• 2023 - Completed MS in Computer Science at UNC-Chapel Hill</p>
+    <p>• 2022 - Completed BS in Computer Science and BS in Statistics at UNC-Chapel Hill</p>
+  </div>
+</details>

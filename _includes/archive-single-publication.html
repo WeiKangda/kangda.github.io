@@ -1,0 +1,106 @@
+{% include base_path %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<div class="publication-item">
+  <article class="publication-content" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <div class="publication-header">
+      <h3 class="publication-title" itemprop="headline">
+        {{ title }}
+      </h3>
+      
+      {% if post.venue %}
+        <span class="publication-venue">
+          {% if post.venue contains "EMNLP" %}
+            <span class="venue-badge emnlp">{{ post.venue }}</span>
+          {% elsif post.venue contains "ACL" %}
+            <span class="venue-badge acl">{{ post.venue }}</span>
+          {% elsif post.venue contains "WACV" %}
+            <span class="venue-badge wacv">{{ post.venue }}</span>
+          {% elsif post.venue contains "NAACL" %}
+            <span class="venue-badge naacl">{{ post.venue }}</span>
+          {% elsif post.venue contains "CVPR" %}
+            <span class="venue-badge cvpr">{{ post.venue }}</span>
+          {% elsif post.venue contains "Preprint" %}
+            <span class="venue-badge preprint">{{ post.venue }}</span>
+          {% else %}
+            <span class="venue-badge default">{{ post.venue }}</span>
+          {% endif %}
+        </span>
+      {% endif %}
+    </div>
+    
+    <div class="publication-authors">
+      {% if post.author %}
+        {% assign author_list = post.author | split: "," %}
+        {% for author in author_list %}
+          {% if author contains "Kangda Wei" %}
+            <span class="author-highlight">{{ author | strip }}</span>
+          {% else %}
+            <span class="author-name">{{ author | strip }}</span>
+          {% endif %}
+          {% if forloop.last == false %}, {% endif %}
+        {% endfor %}
+      {% endif %}
+    </div>
+    
+    {% if post.excerpt %}
+      <div class="publication-abstract">
+        {{ post.excerpt }}
+      </div>
+    {% endif %}
+    
+    <div class="publication-links">
+      {% if post.paperurl %}
+        <a href="{{ post.paperurl }}" class="pub-link paper-link">
+          <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5L14 4.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5h-2z"/>
+          </svg>
+          Paper
+        </a>
+      {% endif %}
+      
+      {% if post.code %}
+        <a href="{{ post.code }}" class="pub-link code-link">
+          <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M5.854 4.854a.5.5 0 1 0-.708-.708l-3.5 3.5a.5.5 0 0 0 0 .708l3.5 3.5a.5.5 0 0 0 .708-.708L2.707 8l3.147-3.146zm4.292 0a.5.5 0 0 1 .708-.708l3.5 3.5a.5.5 0 0 1 0 .708l-3.5 3.5a.5.5 0 0 1-.708-.708L13.293 8l-3.147-3.146z"/>
+          </svg>
+          Code
+        </a>
+      {% endif %}
+      
+      {% if post.data %}
+        <a href="{{ post.data }}" class="pub-link data-link">
+          <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M1 3.5A1.5 1.5 0 0 1 2.5 2h2.764c.958 0 1.76.56 2.311 1.184C7.985 3.648 8.48 4 9 4h4.5A1.5 1.5 0 0 1 15 5.5v7a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 1 12.5v-9z"/>
+          </svg>
+          Dataset
+        </a>
+      {% endif %}
+      
+      {% if post.slides %}
+        <a href="{{ post.slides }}" class="pub-link slides-link">
+          <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2zm0 1h12a1 1 0 0 1 1 1v5H1V4a1 1 0 0 1 1-1zm1 7v2a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-2H3z"/>
+          </svg>
+          Slides
+        </a>
+      {% endif %}
+      
+      {% if post.video %}
+        <a href="{{ post.video }}" class="pub-link video-link">
+          <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M0 12V4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm6.79-6.907A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
+          </svg>
+          Video
+        </a>
+      {% endif %}
+    </div>
+    
+  </article>
+</div>
