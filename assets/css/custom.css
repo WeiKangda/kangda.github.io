@@ -1,0 +1,608 @@
+/* Custom styles for improved presentation */
+
+/* Animation classes */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(102, 126, 234, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(102, 126, 234, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(102, 126, 234, 0);
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.fade-in-visible {
+  opacity: 1;
+  animation: fadeInUp 0.6s ease forwards;
+}
+
+.hero-animate {
+  animation: fadeIn 1s ease forwards;
+}
+
+/* Hero Section */
+.hero-section {
+  text-align: center;
+  padding: 3em 0;
+  margin-bottom: 2em;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 10px;
+  color: white;
+}
+
+.hero-section .welcome-text {
+  font-size: 2.5em;
+  margin-bottom: 0.3em;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+.hero-section .tagline {
+  font-size: 1.2em;
+  opacity: 0.95;
+  margin: 0;
+}
+
+/* Research Interests Grid */
+.research-interests-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5em;
+  margin: 2em 0;
+}
+
+.research-interests-grid .interest-card {
+  background: #f8f9fa;
+  padding: 1.5em;
+  border-radius: 8px;
+  border-left: 4px solid #667eea;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.research-interests-grid .interest-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.research-interests-grid .interest-card h4 {
+  margin-top: 0;
+  color: #333;
+  font-size: 1.1em;
+}
+
+.research-interests-grid .interest-card p {
+  margin: 0;
+  color: #666;
+  font-size: 0.95em;
+}
+
+/* Experience Timeline */
+.experience-timeline {
+  margin: 2em 0;
+}
+
+.experience-timeline .experience-item {
+  display: flex;
+  margin-bottom: 2em;
+  padding-left: 2em;
+  border-left: 3px solid #e0e0e0;
+  position: relative;
+}
+
+.experience-timeline .experience-item:before {
+  content: '';
+  position: absolute;
+  left: -8px;
+  top: 0;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: #667eea;
+  border: 3px solid white;
+  box-shadow: 0 0 0 3px #f0f0f0;
+}
+
+.experience-timeline .experience-date {
+  min-width: 150px;
+  font-weight: 600;
+  color: #667eea;
+  font-size: 0.95em;
+  padding-right: 2em;
+}
+
+.experience-timeline .experience-content {
+  flex: 1;
+}
+
+.experience-timeline .experience-content h4 {
+  margin: 0 0 0.5em 0;
+  color: #333;
+  font-size: 1.2em;
+}
+
+.experience-timeline .experience-content .institution {
+  font-weight: 600;
+  color: #555;
+  margin: 0.3em 0;
+}
+
+.experience-timeline .experience-content .details,
+.experience-timeline .experience-content .mentors {
+  color: #666;
+  margin: 0.3em 0;
+  font-size: 0.95em;
+}
+
+/* News Section */
+.news-container {
+  margin: 2em 0;
+}
+
+.news-container .news-item {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1.2em;
+  margin-bottom: 1em;
+  transition: all 0.3s ease;
+}
+
+.news-container .news-item:hover {
+  border-color: #667eea;
+  box-shadow: 0 3px 10px rgba(102, 126, 234, 0.1);
+}
+
+.news-container .news-date {
+  font-weight: 700;
+  color: #667eea;
+  margin-right: 1em;
+  font-size: 0.9em;
+}
+
+.news-container .news-badge {
+  display: inline-block;
+  padding: 0.2em 0.6em;
+  border-radius: 4px;
+  font-size: 0.85em;
+  font-weight: 600;
+  margin-right: 0.5em;
+}
+
+.news-badge.acl {
+  background: #e3f2fd;
+  color: #1976d2;
+}
+
+.news-badge.emnlp {
+  background: #f3e5f5;
+  color: #7b1fa2;
+}
+
+.news-badge.wacv {
+  background: #e8f5e9;
+  color: #388e3c;
+}
+
+.news-badge.achievement {
+  background: #fff3e0;
+  color: #f57c00;
+}
+
+.news-container .news-item p {
+  margin: 0.5em 0 0 0;
+  line-height: 1.6;
+}
+
+.news-container .news-item p a {
+  color: #667eea;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.news-container .news-item p a:hover {
+  text-decoration: underline;
+}
+
+.older-news {
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: 1px solid #e0e0e0;
+}
+
+.older-news p {
+  margin: 0.5em 0;
+  color: #666;
+}
+
+/* Typography improvements */
+h2 {
+  color: #333;
+  border-bottom: 2px solid #667eea;
+  padding-bottom: 0.3em;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+/* Details/Summary styling */
+details {
+  margin-top: 1em;
+}
+
+details summary {
+  cursor: pointer;
+  color: #667eea;
+  font-weight: 500;
+  padding: 0.5em;
+  background: #f8f9fa;
+  border-radius: 4px;
+}
+
+details summary:hover {
+  background: #e8eaf6;
+}
+
+/* Publications Page Styles */
+.publications-header {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.publications-header .scholar-link {
+  font-size: 1.1em;
+}
+
+.publications-header .scholar-link a {
+  color: #667eea;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border: 2px solid #667eea;
+  border-radius: 25px;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.publications-header .scholar-link a:hover {
+  background: #667eea;
+  color: white;
+}
+
+.publications-stats {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3em;
+}
+
+.publications-stats .stat-item {
+  text-align: center;
+  padding: 1em 2em;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 10px;
+  color: white;
+}
+
+.publications-stats .stat-number {
+  display: block;
+  font-size: 2.5em;
+  font-weight: 700;
+  margin-bottom: 0.2em;
+}
+
+.publications-stats .stat-label {
+  font-size: 1.1em;
+  opacity: 0.95;
+}
+
+.publications-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.publication-item {
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 1.5em;
+  margin-bottom: 1.5em;
+  transition: all 0.3s ease;
+}
+
+.publication-item:hover {
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  border-color: #667eea;
+}
+
+.publication-item .publication-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.8em;
+  flex-wrap: wrap;
+}
+
+.publication-item .publication-title {
+  font-size: 1.2em;
+  color: #333;
+  margin: 0 1em 0.5em 0;
+  flex: 1;
+  line-height: 1.4;
+}
+
+.publication-item .venue-badge {
+  display: inline-block;
+  padding: 0.3em 0.8em;
+  border-radius: 15px;
+  font-size: 0.85em;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.venue-badge.emnlp {
+  background: linear-gradient(135deg, #f3e5f5, #e1bee7);
+  color: #6a1b9a;
+}
+
+.venue-badge.acl {
+  background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+  color: #1565c0;
+}
+
+.venue-badge.wacv {
+  background: linear-gradient(135deg, #e8f5e9, #c8e6c9);
+  color: #2e7d32;
+}
+
+.venue-badge.naacl {
+  background: linear-gradient(135deg, #fce4ec, #f8bbd0);
+  color: #c2185b;
+}
+
+.venue-badge.cvpr {
+  background: linear-gradient(135deg, #fff3e0, #ffe0b2);
+  color: #e65100;
+}
+
+.venue-badge.preprint {
+  background: linear-gradient(135deg, #f5f5f5, #e0e0e0);
+  color: #616161;
+}
+
+.venue-badge.default {
+  background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+  color: #486581;
+}
+
+.publication-item .publication-authors {
+  color: #666;
+  margin-bottom: 1em;
+  line-height: 1.5;
+}
+
+.publication-item .author-highlight {
+  font-weight: 700;
+  color: #667eea;
+}
+
+.publication-item .author-name {
+  color: #666;
+}
+
+.publication-item .publication-abstract {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 1em;
+  padding: 1em;
+  background: #f8f9fa;
+  border-radius: 5px;
+  font-size: 0.95em;
+}
+
+.publication-item .publication-links {
+  display: flex;
+  gap: 0.8em;
+  flex-wrap: wrap;
+}
+
+.publication-item .pub-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3em;
+  padding: 0.4em 0.8em;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 0.9em;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.pub-link.paper-link {
+  background: #e3f2fd;
+  color: #1565c0;
+}
+
+.pub-link.paper-link:hover {
+  background: #1565c0;
+  color: white;
+}
+
+.pub-link.code-link {
+  background: #f3e5f5;
+  color: #6a1b9a;
+}
+
+.pub-link.code-link:hover {
+  background: #6a1b9a;
+  color: white;
+}
+
+.pub-link.data-link {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+.pub-link.data-link:hover {
+  background: #2e7d32;
+  color: white;
+}
+
+.pub-link.slides-link {
+  background: #fff3e0;
+  color: #e65100;
+}
+
+.pub-link.slides-link:hover {
+  background: #e65100;
+  color: white;
+}
+
+.pub-link.video-link {
+  background: #fce4ec;
+  color: #c2185b;
+}
+
+.pub-link.video-link:hover {
+  background: #c2185b;
+  color: white;
+}
+
+/* Copy code button */
+.copy-code-btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  padding: 0.3em 0.6em;
+  background: #667eea;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.85em;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.copy-code-btn:hover {
+  background: #5568d3;
+}
+
+pre:hover .copy-code-btn {
+  opacity: 1;
+}
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .hero-section .welcome-text {
+    font-size: 1.8em;
+  }
+  
+  .hero-section .tagline {
+    font-size: 1em;
+  }
+  
+  .research-interests-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .experience-timeline .experience-item {
+    flex-direction: column;
+    padding-left: 1.5em;
+  }
+  
+  .experience-timeline .experience-date {
+    margin-bottom: 0.5em;
+    min-width: auto;
+  }
+  
+  .news-container .news-item {
+    padding: 1em;
+  }
+  
+  .news-container .news-badge {
+    display: block;
+    width: fit-content;
+    margin-bottom: 0.5em;
+  }
+}
+
+/* Improved link styling */
+a {
+  transition: color 0.3s ease;
+}
+
+/* Page content improvements */
+.page__content {
+  font-size: 1em;
+  line-height: 1.7;
+}
+
+.page__content ul,
+.page__content ol {
+  margin-left: 1.5em;
+}
+
+.page__content ul li,
+.page__content ol li {
+  margin-bottom: 0.5em;
+}
+
+/* Author profile improvements */
+.author__avatar img {
+  border: 3px solid #667eea;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.author__content h3 {
+  color: #333;
+  font-size: 1.5em;
+}
+
+.author__content p {
+  color: #666;
+}
+
+.author__urls a:hover {
+  background: #667eea;
+  color: white;
+}

@@ -250,6 +250,36 @@ sass:
   sass_dir: _sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .sass-cache/
+  - .jekyll-cache/
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .idea
+  - .DS_Store
+  - Thumbs.db
+  - .git
+  - .github
+  - README.md
+  - CHANGELOG.md
+  - package.json
+  - package-lock.json
+  - talkmap.py
+  - talkmap.ipynb
+  - markdown_generator/
+
+# Keep files from being cleaned
+keep_files:
+  - .git
+  - .github
 
 # Outputting
 permalink: /:categories/:title/

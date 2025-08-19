@@ -89,20 +89,14 @@ document.addEventListener('DOMContentLoaded', function() {
     block.parentElement.appendChild(button);
   });
   
-  // Typing effect for tagline
+  // Simple fade-in for tagline instead of typing effect
   const tagline = document.querySelector('.tagline');
   if (tagline) {
-    const text = tagline.textContent;
-    tagline.textContent = '';
-    let i = 0;
-    function typeWriter() {
-      if (i < text.length) {
-        tagline.textContent += text.charAt(i);
-        i++;
-        setTimeout(typeWriter, 50);
-      }
-    }
-    setTimeout(typeWriter, 500);
+    tagline.style.opacity = '0';
+    setTimeout(() => {
+      tagline.style.transition = 'opacity 1s ease';
+      tagline.style.opacity = '1';
+    }, 500);
   }
   
 });
