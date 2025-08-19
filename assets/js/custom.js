@@ -1,3 +1,6 @@
+---
+---
+
 // Custom JavaScript for improved interactivity
 
 document.addEventListener('DOMContentLoaded', function() {
