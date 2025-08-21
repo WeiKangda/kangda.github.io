@@ -1,4 +1,5 @@
 ---
+layout: archive
 permalink: /
 title: "About me"
 excerpt: "About me"
@@ -110,6 +111,11 @@ I am a second-year PhD student in the [Natural Language Processing Group](https:
 ## Recent News
 
 <div class="news-container">
+  <div class="news-item">
+    <span class="news-date">2025</span>
+    <span class="news-badge acl">EMNLP 2025</span>
+    <p>Paper accepted to Findings of EMNLP 2025: "Mitigating Gender Bias via Fostering Exploratory Thinking in LLMs" <a href="https://arxiv.org/abs/2505.17217">[PDF]</a> <a href="https://github.com/WeiKangda/LegalCore">[Code]</a></p>
+  </div>
   <div class="news-item">
     <span class="news-date">2025</span>
     <span class="news-badge acl">ACL 2025</span>

@@ -892,3 +892,17 @@ html {
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   }
 }
+
+// Masthead home link styling
+.masthead__menu-item--lg {
+  a {
+    font-weight: 700;
+    color: #667eea !important;
+    transition: color 0.3s ease;
+    
+    &:hover {
+      color: #5568d3 !important;
+      text-decoration: none;
+    }
+  }
+}
