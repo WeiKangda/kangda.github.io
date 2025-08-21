@@ -100,7 +100,7 @@ I am a second-year PhD student in the [Natural Language Processing Group](https:
       <div class="experience-timeline">
         <div class="experience-item">
           <div class="experience-logo">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Bosch-logo.svg/150px-Bosch-logo.svg.png" alt="Bosch">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Bosch_logo.svg/150px-Bosch_logo.svg.png" alt="Bosch">
           </div>
           <div class="experience-body">
             <div class="experience-date">May 2024 - Aug 2024</div>
@@ -129,6 +129,20 @@ I am a second-year PhD student in the [Natural Language Processing Group](https:
               <p class="institution">Texas A&M University, College Station TX</p>
               <p class="details">Natural Language Processing Lab</p>
               <p class="advisor">Advisor: Prof. Ruihong Huang</p>
+            </div>
+          </div>
+        </div>
+        <div class="experience-item">
+          <div class="experience-logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Johns_Hopkins_University_seal.svg/150px-Johns_Hopkins_University_seal.svg.png" alt="Johns Hopkins">
+          </div>
+          <div class="experience-body">
+            <div class="experience-date">May 2022 - May 2023</div>
+            <div class="experience-content">
+              <h4>Visiting Research Assistant</h4>
+              <p class="institution">Johns Hopkins University, Baltimore MD</p>
+              <p class="details">Machine Reading & Question Decomposition</p>
+              <p class="advisor">Mentor: Prof. Benjamin van Durme</p>
             </div>
           </div>
         </div>
