@@ -69,7 +69,7 @@ I am a second-year PhD student in the [Natural Language Processing Group](https:
           <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/North_Carolina_Tar_Heels_logo.svg/150px-North_Carolina_Tar_Heels_logo.svg.png" alt="UNC">
         </div>
         <div class="education-body">
-          <div class="education-date">2021 - 2023</div>
+          <div class="education-date">2022 - 2023</div>
           <div class="education-content">
             <h4>M.S. in Computer Science</h4>
             <p class="institution">University of North Carolina at Chapel Hill</p>
@@ -96,7 +96,7 @@ I am a second-year PhD student in the [Natural Language Processing Group](https:
     <div class="services-section">
       <h3>Professional Services</h3>
       <ul class="services-list">
-        <li>Reviewer for ACL Rolling Review (ARR) since 2024</li>
+        <li>Reviewer for ACL Rolling Review (ARR) since January 2024</li>
         <li>Reviewer for IEEE/CVF WACV 2025</li>
         <li>Reviewer for The Computer Journey</li>
       </ul>
