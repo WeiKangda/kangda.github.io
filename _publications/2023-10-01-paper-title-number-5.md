@@ -9,4 +9,5 @@ author: Jiangshu Du, Yibo Wang, Wenting Zhao, Zhongfen Deng, Shuaiqi Liu, Renze 
 paperurl: https://aclanthology.org/2024.emnlp-main.292/
 citation:
 data: https://github.com/jiangshdd/ReviewCritique
+image: images/paper5.PNG
 ---

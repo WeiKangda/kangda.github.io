@@ -9,4 +9,5 @@ author: Kangda Wei, Aayush Gautam, Ruihong Huang
 paperurl: https://aclanthology.org/2024.findings-emnlp.1/
 citation:
 code: https://github.com/WeiKangda/LLM-ERE
+image: images/paper6.PNG
 ---

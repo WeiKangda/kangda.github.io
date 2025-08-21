@@ -8,4 +8,5 @@ venue: Preprint
 author: Kangda Wei, Zhengyu Zhou, Bingqing Wang, Jun Araki, Lukas Lange, Zhe Feng
 paperurl: https://arxiv.org/abs/2503.00162
 citation:
+image: images/paper8.PNG
 ---
