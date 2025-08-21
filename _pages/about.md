@@ -83,7 +83,7 @@ I am a second-year PhD student in the [Natural Language Processing Group](https:
           <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/North_Carolina_Tar_Heels_logo.svg/150px-North_Carolina_Tar_Heels_logo.svg.png" alt="UNC">
         </div>
         <div class="education-body">
-          <div class="education-date">2018 - 2022</div>
+          <div class="education-date">2019 - 2022</div>
           <div class="education-content">
             <h4>B.S. in Computer Science & Statistics</h4>
             <p class="institution">University of North Carolina at Chapel Hill</p>
