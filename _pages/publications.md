@@ -27,7 +27,20 @@ author_profile: true
 
 <div class="publications-container">
   {% assign sorted_pubs = site.publications | sort: 'date' | reverse %}
-  {% for post in sorted_pubs %}
-    {% include archive-single-publication.html %}
+  {% assign grouped_pubs = sorted_pubs | group_by_exp: 'post', 'post.date | date: "%Y"' %}
+  
+  {% for year_group in grouped_pubs %}
+    <div class="year-section">
+      <h2 class="year-header">
+        <span class="year-number">{{ year_group.name }}</span>
+        <span class="year-count">({{ year_group.items | size }} publication{% if year_group.items.size != 1 %}s{% endif %})</span>
+      </h2>
+      
+      <div class="year-publications">
+        {% for post in year_group.items %}
+          {% include archive-single-publication.html %}
+        {% endfor %}
+      </div>
+    </div>
   {% endfor %}
 </div>

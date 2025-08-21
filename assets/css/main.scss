@@ -428,6 +428,86 @@ details {
   margin: 0 auto;
 }
 
+// Year-based publication grouping
+.year-section {
+  margin-bottom: 4em;
+  position: relative;
+  
+  // Add divider between year sections (except first)
+  &:not(:first-child):before {
+    content: '';
+    position: absolute;
+    top: -2em;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 2px;
+    background: linear-gradient(90deg, transparent 0%, #e0e0e0 50%, transparent 100%);
+  }
+  
+  .year-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 3em 0 2em 0;
+    padding: 1em 1.5em;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 10px;
+    color: white;
+    border: none;
+    position: relative;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(102, 126, 234, 0.3);
+    }
+    
+    &:before {
+      content: '';
+      position: absolute;
+      left: -5px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 4px;
+      height: 60%;
+      background: rgba(255, 255, 255, 0.3);
+      border-radius: 2px;
+    }
+    
+    .year-number {
+      font-size: 1.8em;
+      font-weight: 700;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+    }
+    
+    .year-count {
+      font-size: 1em;
+      opacity: 0.9;
+      font-weight: 500;
+      background: rgba(255, 255, 255, 0.2);
+      padding: 0.3em 0.8em;
+      border-radius: 20px;
+    }
+  }
+  
+  .year-publications {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+  }
+  
+  // Alternate gradient colors for visual variety
+  &:nth-child(even) .year-header {
+    background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+  }
+  
+  &:nth-child(3n) .year-header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  }
+}
+
 .publication-item {
   background: white;
   border: 1px solid #e0e0e0;
@@ -780,6 +860,23 @@ details {
   
   .teaching-container {
     padding: 0 1em;
+  }
+  
+  // Year header mobile responsiveness
+  .year-section {
+    .year-header {
+      flex-direction: column;
+      text-align: center;
+      gap: 0.5em;
+      
+      .year-number {
+        font-size: 1.5em;
+      }
+      
+      .year-count {
+        font-size: 0.9em;
+      }
+    }
   }
 }
 
