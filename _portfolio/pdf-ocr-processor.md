@@ -3,7 +3,7 @@ title: "PDF OCR Processor"
 excerpt: "A powerful PDF processing tool that uses Mistral AI's OCR capabilities to extract text and images from PDF documents."
 collection: portfolio
 header:
-  teaser: images/mistral_ocr_logo.jpg
+  teaser: /images/mistral_ocr_logo.jpg
 ---
 
 A Python tool that leverages Mistral AI's OCR capabilities to process PDF documents, extract text and images, and save them in an organized structure. This project utilizes Mistral AI's state-of-the-art OCR technology to provide an efficient solution for document digitization and content extraction.

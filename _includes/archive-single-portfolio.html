@@ -17,7 +17,7 @@
     
     {% if teaser %}
       <div class="portfolio-image">
-        <img src="{{ teaser | prepend: base_path }}" alt="{{ title }}" loading="lazy">
+        <img src="{{ teaser | prepend: base_path }}" alt="{{ title }}" loading="lazy" onerror="this.style.display='none'; this.parentElement.style.display='none';">
       </div>
     {% endif %}
     
