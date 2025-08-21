@@ -615,19 +615,22 @@ details {
   }
   
   .publication-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
     margin-bottom: 0.8em;
-    flex-wrap: wrap;
     
     .publication-title {
       font-size: 1.2em;
       color: #333;
-      margin: 0 1em 0.5em 0;
-      flex: 1;
-      line-height: 1.4;
+      margin: 0 0 0.5em 0;
+      line-height: 1.3;
+      font-weight: 600;
+      display: block;
+      width: 100%;
     }
+  }
+  
+  .publication-venue {
+    margin-bottom: 0.6em;
+    display: block;
     
     .venue-badge {
       display: inline-block;
@@ -666,8 +669,10 @@ details {
   
   .publication-authors {
     color: #666;
-    margin-bottom: 1em;
-    line-height: 1.5;
+    margin-bottom: 0.8em;
+    line-height: 1.4;
+    font-size: 0.95em;
+    display: block;
     
     .author-highlight {
       font-weight: 700;
@@ -681,8 +686,9 @@ details {
   
   .publication-links {
     display: flex;
-    gap: 0.8em;
+    gap: 0.6em;
     flex-wrap: wrap;
+    margin-top: 0.5em;
     
     .pub-link {
       display: inline-flex;
@@ -1059,14 +1065,28 @@ details {
     .publication-details {
       .publication-title {
         font-size: 1em;
+        line-height: 1.3;
+        margin-bottom: 0.4em;
+      }
+      
+      .publication-venue {
+        margin-bottom: 0.5em;
+        
+        .venue-badge {
+          font-size: 0.75em;
+          padding: 0.25em 0.6em;
+        }
       }
       
       .publication-authors {
         font-size: 0.85em;
+        margin-bottom: 0.6em;
+        line-height: 1.3;
       }
       
       .publication-links {
-        gap: 0.5em;
+        gap: 0.4em;
+        margin-top: 0.4em;
         
         .pub-link {
           padding: 0.3em 0.6em;

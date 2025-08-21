@@ -21,27 +21,27 @@
           <h3 class="publication-title" itemprop="headline">
             {{ title }}
           </h3>
-      
-      {% if post.venue %}
-        <span class="publication-venue">
-          {% if post.venue contains "EMNLP" %}
-            <span class="venue-badge emnlp">{{ post.venue }}</span>
-          {% elsif post.venue contains "ACL" %}
-            <span class="venue-badge acl">{{ post.venue }}</span>
-          {% elsif post.venue contains "WACV" %}
-            <span class="venue-badge wacv">{{ post.venue }}</span>
-          {% elsif post.venue contains "NAACL" %}
-            <span class="venue-badge naacl">{{ post.venue }}</span>
-          {% elsif post.venue contains "CVPR" %}
-            <span class="venue-badge cvpr">{{ post.venue }}</span>
-          {% elsif post.venue contains "Preprint" %}
-            <span class="venue-badge preprint">{{ post.venue }}</span>
-          {% else %}
-            <span class="venue-badge default">{{ post.venue }}</span>
-          {% endif %}
-        </span>
-      {% endif %}
-    </div>
+        </div>
+        
+        {% if post.venue %}
+          <div class="publication-venue">
+            {% if post.venue contains "EMNLP" %}
+              <span class="venue-badge emnlp">{{ post.venue }}</span>
+            {% elsif post.venue contains "ACL" %}
+              <span class="venue-badge acl">{{ post.venue }}</span>
+            {% elsif post.venue contains "WACV" %}
+              <span class="venue-badge wacv">{{ post.venue }}</span>
+            {% elsif post.venue contains "NAACL" %}
+              <span class="venue-badge naacl">{{ post.venue }}</span>
+            {% elsif post.venue contains "CVPR" %}
+              <span class="venue-badge cvpr">{{ post.venue }}</span>
+            {% elsif post.venue contains "Preprint" %}
+              <span class="venue-badge preprint">{{ post.venue }}</span>
+            {% else %}
+              <span class="venue-badge default">{{ post.venue }}</span>
+            {% endif %}
+          </div>
+        {% endif %}
     
     <div class="publication-authors">
       {% if post.author %}
