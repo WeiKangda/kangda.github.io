@@ -50,30 +50,45 @@ I am a second-year PhD student in the [Natural Language Processing Group](https:
     <h3>Education</h3>
     <div class="education-timeline">
       <div class="education-item">
-        <div class="education-date">2023 - Present</div>
-        <div class="education-content">
-          <h4>Ph.D. in Computer Science</h4>
-          <p class="institution">Texas A&M University</p>
-          <p class="details">Natural Language Processing</p>
-          <p class="advisor">Advisor: Prof. Ruihong Huang</p>
-          <p class="achievement">• Passed Qualification Exam at 98th percentile (2024)</p>
+        <div class="education-logo">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Texas_A%26M_University_logo.svg/150px-Texas_A%26M_University_logo.svg.png" alt="Texas A&M">
+        </div>
+        <div class="education-body">
+          <div class="education-date">2023 - Present</div>
+          <div class="education-content">
+            <h4>Ph.D. in Computer Science</h4>
+            <p class="institution">Texas A&M University</p>
+            <p class="details">Natural Language Processing</p>
+            <p class="advisor">Advisor: Prof. Ruihong Huang</p>
+            <p class="achievement">• Passed Qualification Exam at 98th percentile (2024)</p>
+          </div>
         </div>
       </div>
       <div class="education-item">
-        <div class="education-date">2021 - 2023</div>
-        <div class="education-content">
-          <h4>M.S. in Computer Science</h4>
-          <p class="institution">University of North Carolina at Chapel Hill</p>
-          <p class="details">Machine Learning & NLP</p>
-          <p class="advisor">Advisor: Prof. Shashank Srivastava</p>
+        <div class="education-logo">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/North_Carolina_Tar_Heels_logo.svg/150px-North_Carolina_Tar_Heels_logo.svg.png" alt="UNC">
+        </div>
+        <div class="education-body">
+          <div class="education-date">2021 - 2023</div>
+          <div class="education-content">
+            <h4>M.S. in Computer Science</h4>
+            <p class="institution">University of North Carolina at Chapel Hill</p>
+            <p class="details">Machine Learning & NLP</p>
+            <p class="advisor">Advisor: Prof. Shashank Srivastava</p>
+          </div>
         </div>
       </div>
       <div class="education-item">
-        <div class="education-date">2018 - 2022</div>
-        <div class="education-content">
-          <h4>B.S. in Computer Science & Statistics</h4>
-          <p class="institution">University of North Carolina at Chapel Hill</p>
-          <p class="details">Double Major</p>
+        <div class="education-logo">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/North_Carolina_Tar_Heels_logo.svg/150px-North_Carolina_Tar_Heels_logo.svg.png" alt="UNC">
+        </div>
+        <div class="education-body">
+          <div class="education-date">2018 - 2022</div>
+          <div class="education-content">
+            <h4>B.S. in Computer Science & Statistics</h4>
+            <p class="institution">University of North Carolina at Chapel Hill</p>
+            <p class="details">Double Major</p>
+          </div>
         </div>
       </div>
     </div>
@@ -84,12 +99,17 @@ I am a second-year PhD student in the [Natural Language Processing Group](https:
       <h3>Industry Experience</h3>
       <div class="experience-timeline">
         <div class="experience-item">
-          <div class="experience-date">May 2024 - Aug 2024</div>
-          <div class="experience-content">
-            <h4>Applied Scientist Intern</h4>
-            <p class="institution">Bosch Research, Sunnyvale CA</p>
-            <p class="details">Video Understanding with Multi-Modal Multi-Agent System</p>
-            <p class="mentors">Mentors: Zhengyu Zhou, Bingqing Wang, Jun Araki, Lukas Lange, Zhe Feng</p>
+          <div class="experience-logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Bosch-logo.svg/150px-Bosch-logo.svg.png" alt="Bosch">
+          </div>
+          <div class="experience-body">
+            <div class="experience-date">May 2024 - Aug 2024</div>
+            <div class="experience-content">
+              <h4>Applied Scientist Intern</h4>
+              <p class="institution">Bosch Research, Sunnyvale CA</p>
+              <p class="details">Video Understanding with Multi-Modal Multi-Agent System</p>
+              <p class="mentors">Mentors: Zhengyu Zhou, Bingqing Wang, Jun Araki, Lukas Lange, Zhe Feng</p>
+            </div>
           </div>
         </div>
       </div>
@@ -99,21 +119,31 @@ I am a second-year PhD student in the [Natural Language Processing Group](https:
       <h3>Research Experience</h3>
       <div class="experience-timeline">
         <div class="experience-item">
-          <div class="experience-date">Aug 2023 - Present</div>
-          <div class="experience-content">
-            <h4>Research Assistant</h4>
-            <p class="institution">Texas A&M University, College Station TX</p>
-            <p class="details">Natural Language Processing Lab</p>
-            <p class="advisor">Advisor: Prof. Ruihong Huang</p>
+          <div class="experience-logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Texas_A%26M_University_logo.svg/150px-Texas_A%26M_University_logo.svg.png" alt="Texas A&M">
+          </div>
+          <div class="experience-body">
+            <div class="experience-date">Aug 2023 - Present</div>
+            <div class="experience-content">
+              <h4>Research Assistant</h4>
+              <p class="institution">Texas A&M University, College Station TX</p>
+              <p class="details">Natural Language Processing Lab</p>
+              <p class="advisor">Advisor: Prof. Ruihong Huang</p>
+            </div>
           </div>
         </div>
         <div class="experience-item">
-          <div class="experience-date">Aug 2021 - Jun 2023</div>
-          <div class="experience-content">
-            <h4>Research Assistant</h4>
-            <p class="institution">University of North Carolina, Chapel Hill NC</p>
-            <p class="details">Learning from Language Lab</p>
-            <p class="advisor">Advisor: Prof. Shashank Srivastava</p>
+          <div class="experience-logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/North_Carolina_Tar_Heels_logo.svg/150px-North_Carolina_Tar_Heels_logo.svg.png" alt="UNC">
+          </div>
+          <div class="experience-body">
+            <div class="experience-date">Aug 2021 - Jun 2023</div>
+            <div class="experience-content">
+              <h4>Research Assistant</h4>
+              <p class="institution">University of North Carolina, Chapel Hill NC</p>
+              <p class="details">Learning from Language Lab</p>
+              <p class="advisor">Advisor: Prof. Shashank Srivastava</p>
+            </div>
           </div>
         </div>
       </div>

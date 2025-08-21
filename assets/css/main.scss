@@ -190,23 +190,52 @@
   margin: 0;
   
   .education-item {
-    display: block;
+    display: flex;
+    gap: 1em;
     margin-bottom: 1.5em;
-    padding-left: 1.5em;
-    border-left: 3px solid #e0e0e0;
+    padding-left: 0;
+    border-left: none;
     position: relative;
+    align-items: flex-start;
     
-    &:before {
-      content: '';
-      position: absolute;
-      left: -6px;
-      top: 0;
-      width: 9px;
-      height: 9px;
-      border-radius: 50%;
-      background: #667eea;
-      border: 2px solid white;
-      box-shadow: 0 0 0 2px #f0f0f0;
+    .education-logo {
+      flex-shrink: 0;
+      width: 50px;
+      height: 50px;
+      border-radius: 8px;
+      overflow: hidden;
+      background: white;
+      border: 1px solid #e0e0e0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 5px;
+      
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+    }
+    
+    .education-body {
+      flex: 1;
+      border-left: 3px solid #e0e0e0;
+      padding-left: 1em;
+      position: relative;
+      
+      &:before {
+        content: '';
+        position: absolute;
+        left: -6px;
+        top: 0;
+        width: 9px;
+        height: 9px;
+        border-radius: 50%;
+        background: #667eea;
+        border: 2px solid white;
+        box-shadow: 0 0 0 2px #f0f0f0;
+      }
     }
     
     .education-date {
@@ -259,23 +288,52 @@
   margin: 0;
   
   .experience-item {
-    display: block;
+    display: flex;
+    gap: 1em;
     margin-bottom: 1.5em;
-    padding-left: 1.5em;
-    border-left: 3px solid #e0e0e0;
+    padding-left: 0;
+    border-left: none;
     position: relative;
+    align-items: flex-start;
     
-    &:before {
-      content: '';
-      position: absolute;
-      left: -6px;
-      top: 0;
-      width: 9px;
-      height: 9px;
-      border-radius: 50%;
-      background: #667eea;
-      border: 2px solid white;
-      box-shadow: 0 0 0 2px #f0f0f0;
+    .experience-logo {
+      flex-shrink: 0;
+      width: 50px;
+      height: 50px;
+      border-radius: 8px;
+      overflow: hidden;
+      background: white;
+      border: 1px solid #e0e0e0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 5px;
+      
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+    }
+    
+    .experience-body {
+      flex: 1;
+      border-left: 3px solid #e0e0e0;
+      padding-left: 1em;
+      position: relative;
+      
+      &:before {
+        content: '';
+        position: absolute;
+        left: -6px;
+        top: 0;
+        width: 9px;
+        height: 9px;
+        border-radius: 50%;
+        background: #667eea;
+        border: 2px solid white;
+        box-shadow: 0 0 0 2px #f0f0f0;
+      }
     }
     
     .experience-date {
@@ -1001,13 +1059,23 @@ details {
   
   .experience-timeline, .education-timeline {
     .experience-item, .education-item {
-      padding-left: 1.2em;
+      gap: 0.8em;
       margin-bottom: 1.2em;
       
-      &:before {
-        left: -5px;
-        width: 7px;
-        height: 7px;
+      .experience-logo, .education-logo {
+        width: 40px;
+        height: 40px;
+        padding: 4px;
+      }
+      
+      .experience-body, .education-body {
+        padding-left: 0.8em;
+        
+        &:before {
+          left: -5px;
+          width: 7px;
+          height: 7px;
+        }
       }
       
       .experience-date, .education-date {
