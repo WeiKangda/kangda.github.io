@@ -100,7 +100,7 @@ I am a second-year PhD student in the [Natural Language Processing Group](https:
       <div class="experience-timeline">
         <div class="experience-item">
           <div class="experience-logo">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Bosch_logo.svg/150px-Bosch_logo.svg.png" alt="Bosch">
+            <img src="https://logos-world.net/wp-content/uploads/2020/08/Bosch-Logo.png" alt="Bosch">
           </div>
           <div class="experience-body">
             <div class="experience-date">May 2024 - Aug 2024</div>
@@ -134,7 +134,7 @@ I am a second-year PhD student in the [Natural Language Processing Group](https:
         </div>
         <div class="experience-item">
           <div class="experience-logo">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Johns_Hopkins_University_seal.svg/150px-Johns_Hopkins_University_seal.svg.png" alt="Johns Hopkins">
+            <img src="https://1000logos.net/wp-content/uploads/2017/03/Johns-Hopkins-University-Logo.png" alt="Johns Hopkins">
           </div>
           <div class="experience-body">
             <div class="experience-date">May 2022 - May 2023</div>
@@ -148,7 +148,7 @@ I am a second-year PhD student in the [Natural Language Processing Group](https:
         </div>
         <div class="experience-item">
           <div class="experience-logo">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/UCSB_seal.svg/150px-UCSB_seal.svg.png" alt="UCSB">
+            <img src="https://1000logos.net/wp-content/uploads/2017/02/UC-Santa-Barbara-Logo.png" alt="UCSB">
           </div>
           <div class="experience-body">
             <div class="experience-date">May 2021 - Aug 2021</div>
