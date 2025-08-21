@@ -134,7 +134,7 @@ I am a second-year PhD student in the [Natural Language Processing Group](https:
         </div>
         <div class="experience-item">
           <div class="experience-logo">
-            <img src="https://1000logos.net/wp-content/uploads/2017/03/Johns-Hopkins-University-Logo.png" alt="Johns Hopkins">
+            <img src="/kangda.github.io/images/jhu_logo.png" alt="Johns Hopkins">
           </div>
           <div class="experience-body">
             <div class="experience-date">May 2022 - May 2023</div>
@@ -148,7 +148,7 @@ I am a second-year PhD student in the [Natural Language Processing Group](https:
         </div>
         <div class="experience-item">
           <div class="experience-logo">
-            <img src="https://1000logos.net/wp-content/uploads/2017/02/UC-Santa-Barbara-Logo.png" alt="UCSB">
+            <img src="/kangda.github.io/images/ucsb_logo.gif" alt="UCSB">
           </div>
           <div class="experience-body">
             <div class="experience-date">May 2021 - Aug 2021</div>
