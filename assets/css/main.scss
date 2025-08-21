@@ -145,120 +145,179 @@
   }
 }
 
-// Education Timeline
-.education-timeline {
+// Background Container (Two-column layout)
+.background-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3em;
   margin: 2em 0;
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 15px;
+  padding: 2.5em;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+  
+  .background-left, .background-right {
+    h3 {
+      font-size: 1.4em;
+      color: #333;
+      margin-bottom: 1.5em;
+      padding-bottom: 0.5em;
+      border-bottom: 2px solid #667eea;
+    }
+  }
+  
+  .background-right {
+    .experience-section {
+      &:not(:last-child) {
+        margin-bottom: 2.5em;
+        padding-bottom: 2em;
+        border-bottom: 1px solid #f0f0f0;
+      }
+      
+      h3 {
+        font-size: 1.2em;
+        margin-bottom: 1em;
+        border-bottom: 1px solid #e0e0e0;
+        padding-bottom: 0.3em;
+      }
+    }
+  }
+}
+
+// Updated Education Timeline for compact view
+.education-timeline {
+  margin: 0;
   
   .education-item {
-    display: flex;
-    margin-bottom: 2em;
-    padding-left: 2em;
+    display: block;
+    margin-bottom: 1.5em;
+    padding-left: 1.5em;
     border-left: 3px solid #e0e0e0;
     position: relative;
     
     &:before {
       content: '';
       position: absolute;
-      left: -8px;
+      left: -6px;
       top: 0;
-      width: 13px;
-      height: 13px;
+      width: 9px;
+      height: 9px;
       border-radius: 50%;
       background: #667eea;
-      border: 3px solid white;
-      box-shadow: 0 0 0 3px #f0f0f0;
+      border: 2px solid white;
+      box-shadow: 0 0 0 2px #f0f0f0;
     }
     
     .education-date {
-      min-width: 150px;
       font-weight: 600;
       color: #667eea;
-      font-size: 0.95em;
-      padding-right: 2em;
+      font-size: 0.9em;
+      margin-bottom: 0.3em;
     }
     
     .education-content {
-      flex: 1;
-      
       h4 {
-        margin: 0 0 0.5em 0;
+        margin: 0 0 0.3em 0;
         color: #333;
-        font-size: 1.2em;
+        font-size: 1.1em;
+        line-height: 1.3;
       }
       
       .institution {
         font-weight: 600;
         color: #555;
-        margin: 0.3em 0;
+        margin: 0.2em 0;
+        font-size: 0.95em;
       }
       
       .details {
         color: #666;
-        margin: 0.3em 0;
-        font-size: 0.95em;
+        margin: 0.2em 0;
+        font-size: 0.9em;
+      }
+      
+      .advisor {
+        color: #666;
+        margin: 0.2em 0;
+        font-size: 0.9em;
+        font-style: italic;
       }
       
       .achievement {
         color: #667eea;
         margin: 0.3em 0;
-        font-size: 0.95em;
+        font-size: 0.9em;
         font-weight: 500;
       }
     }
   }
 }
 
-// Experience Timeline
+// Experience Timeline (Updated for both regular and background container)
 .experience-timeline {
-  margin: 2em 0;
+  margin: 0;
   
   .experience-item {
-    display: flex;
-    margin-bottom: 2em;
-    padding-left: 2em;
+    display: block;
+    margin-bottom: 1.5em;
+    padding-left: 1.5em;
     border-left: 3px solid #e0e0e0;
     position: relative;
     
     &:before {
       content: '';
       position: absolute;
-      left: -8px;
+      left: -6px;
       top: 0;
-      width: 13px;
-      height: 13px;
+      width: 9px;
+      height: 9px;
       border-radius: 50%;
       background: #667eea;
-      border: 3px solid white;
-      box-shadow: 0 0 0 3px #f0f0f0;
+      border: 2px solid white;
+      box-shadow: 0 0 0 2px #f0f0f0;
     }
     
     .experience-date {
-      min-width: 150px;
       font-weight: 600;
       color: #667eea;
-      font-size: 0.95em;
-      padding-right: 2em;
+      font-size: 0.9em;
+      margin-bottom: 0.3em;
     }
     
     .experience-content {
-      flex: 1;
-      
       h4 {
-        margin: 0 0 0.5em 0;
+        margin: 0 0 0.3em 0;
         color: #333;
-        font-size: 1.2em;
+        font-size: 1.1em;
+        line-height: 1.3;
       }
       
       .institution {
         font-weight: 600;
         color: #555;
-        margin: 0.3em 0;
+        margin: 0.2em 0;
+        font-size: 0.95em;
       }
       
-      .details, .mentors {
+      .details {
         color: #666;
-        margin: 0.3em 0;
-        font-size: 0.95em;
+        margin: 0.2em 0;
+        font-size: 0.9em;
+      }
+      
+      .advisor {
+        color: #666;
+        margin: 0.2em 0;
+        font-size: 0.9em;
+        font-style: italic;
+      }
+      
+      .mentors {
+        color: #666;
+        margin: 0.2em 0;
+        font-size: 0.9em;
+        font-style: italic;
       }
     }
   }
@@ -853,14 +912,57 @@ details {
     grid-template-columns: 1fr;
   }
   
+  // Mobile layout for background container
+  .background-container {
+    grid-template-columns: 1fr;
+    gap: 2em;
+    padding: 1.5em;
+    
+    .background-left, .background-right {
+      h3 {
+        font-size: 1.2em;
+        margin-bottom: 1em;
+      }
+    }
+    
+    .background-right {
+      .experience-section {
+        &:not(:last-child) {
+          margin-bottom: 2em;
+          padding-bottom: 1.5em;
+        }
+        
+        h3 {
+          font-size: 1.1em;
+        }
+      }
+    }
+  }
+  
   .experience-timeline, .education-timeline {
     .experience-item, .education-item {
-      flex-direction: column;
-      padding-left: 1.5em;
+      padding-left: 1.2em;
+      margin-bottom: 1.2em;
+      
+      &:before {
+        left: -5px;
+        width: 7px;
+        height: 7px;
+      }
       
       .experience-date, .education-date {
-        margin-bottom: 0.5em;
-        min-width: auto;
+        font-size: 0.85em;
+        margin-bottom: 0.3em;
+      }
+      
+      .experience-content, .education-content {
+        h4 {
+          font-size: 1em;
+        }
+        
+        .institution, .details, .advisor, .mentors {
+          font-size: 0.85em;
+        }
       }
     }
   }
