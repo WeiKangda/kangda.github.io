@@ -148,6 +148,20 @@ I am a second-year PhD student in the [Natural Language Processing Group](https:
         </div>
         <div class="experience-item">
           <div class="experience-logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/UCSB_seal.svg/150px-UCSB_seal.svg.png" alt="UCSB">
+          </div>
+          <div class="experience-body">
+            <div class="experience-date">May 2021 - Aug 2021</div>
+            <div class="experience-content">
+              <h4>Visiting Research Assistant</h4>
+              <p class="institution">University of California, Santa Barbara CA</p>
+              <p class="details">Multilingual COVID-19 Question Answering System</p>
+              <p class="advisor">Mentor: Prof. William Wang</p>
+            </div>
+          </div>
+        </div>
+        <div class="experience-item">
+          <div class="experience-logo">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/North_Carolina_Tar_Heels_logo.svg/150px-North_Carolina_Tar_Heels_logo.svg.png" alt="UNC">
           </div>
           <div class="experience-body">
