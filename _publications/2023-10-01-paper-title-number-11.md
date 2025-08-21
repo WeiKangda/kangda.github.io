@@ -10,4 +10,5 @@ paperurl: https://arxiv.org/abs/2505.17217
 citation:
 code: https://github.com/WeiKangda/LLMs-Exploratory-Bias-Mitigation
 data: https://github.com/WeiKangda/LLMs-Exploratory-Bias-Mitigation/tree/main/StoryGeneration
+image: images/paper1.PNG
 --- 

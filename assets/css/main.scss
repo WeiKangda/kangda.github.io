@@ -580,6 +580,40 @@ details {
     border-color: #667eea;
   }
   
+  .publication-layout {
+    display: flex;
+    gap: 1.5em;
+    align-items: flex-start;
+  }
+  
+  .publication-image {
+    flex-shrink: 0;
+    width: 150px;
+    height: 100px;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #f8f9fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+    
+    &:hover img {
+      transform: scale(1.05);
+    }
+  }
+  
+  .publication-details {
+    flex: 1;
+    min-width: 0; // Allows text to wrap properly
+  }
+  
   .publication-header {
     display: flex;
     justify-content: space-between;
@@ -1005,6 +1039,21 @@ details {
       .year-count {
         font-size: 0.9em;
       }
+    }
+  }
+  
+  // Mobile layout for publications
+  .publication-item {
+    .publication-layout {
+      flex-direction: column;
+      gap: 1em;
+    }
+    
+    .publication-image {
+      width: 100%;
+      max-width: 200px;
+      height: 120px;
+      align-self: center;
     }
   }
 }

@@ -10,4 +10,5 @@ paperurl: https://arxiv.org/abs/2502.12509
 citation:
 code: https://github.com/WeiKangda/LegalCore
 data: https://github.com/WeiKangda/LegalCore/tree/main/data
+image: images/paper4.PNG
 ---

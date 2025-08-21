@@ -10,4 +10,5 @@ paperurl: https://arxiv.org/abs/2504.03906
 citation:
 code: https://github.com/abhilekhborah/CliME
 data: https://huggingface.co/datasets/climedataset/CliME
+image: images/paper2.PNG
 ---
