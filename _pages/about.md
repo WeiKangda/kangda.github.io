@@ -92,6 +92,23 @@ I am a second-year PhD student in the [Natural Language Processing Group](https:
         </div>
       </div>
     </div>
+    
+    <div class="services-section">
+      <h3>Professional Services</h3>
+      <ul class="services-list">
+        <li>Reviewer for ACL Rolling Review (ARR) since 2024</li>
+        <li>Reviewer for IEEE/CVF WACV 2025</li>
+        <li>Reviewer for The Computer Journey</li>
+      </ul>
+    </div>
+    
+    <div class="awards-section">
+      <h3>Awards & Recognition</h3>
+      <ul class="awards-list">
+        <li>Texas A&M University CSE Department Travel Grant (2023, 2024)</li>
+        <li>Ph.D Qualification Exam - 98th percentile (2024)</li>
+      </ul>
+    </div>
   </div>
   
   <div class="background-right">
@@ -179,59 +196,6 @@ I am a second-year PhD student in the [Natural Language Processing Group](https:
   </div>
 </div>
 
-## Professional Services & Awards
-
-<div class="services-awards-container">
-  <div class="services-section">
-    <h3>Professional Services</h3>
-    <div class="service-timeline">
-      <div class="service-item">
-        <div class="service-date">Feb 2024 - Present</div>
-        <div class="service-content">
-          <h4>Reviewer</h4>
-          <p class="venue">ACL Rolling Review (ARR)</p>
-          <p class="details">Covering ACL/NAACL/EMNLP conferences</p>
-        </div>
-      </div>
-      <div class="service-item">
-        <div class="service-date">2025</div>
-        <div class="service-content">
-          <h4>Reviewer</h4>
-          <p class="venue">IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)</p>
-        </div>
-      </div>
-      <div class="service-item">
-        <div class="service-date">Ongoing</div>
-        <div class="service-content">
-          <h4>Reviewer</h4>
-          <p class="venue">The Computer Journey</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="awards-section">
-    <h3>Awards & Recognition</h3>
-    <div class="award-timeline">
-      <div class="award-item">
-        <div class="award-date">2023, 2024</div>
-        <div class="award-content">
-          <h4>Travel Grant</h4>
-          <p class="institution">Texas A&M University CSE Department</p>
-          <p class="details">Support for conference attendance and research presentations</p>
-        </div>
-      </div>
-      <div class="award-item">
-        <div class="award-date">2024</div>
-        <div class="award-content">
-          <h4>Ph.D Qualification Exam</h4>
-          <p class="institution">Texas A&M University</p>
-          <p class="details">Passed at 98th percentile</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
 
 ## Recent News
 
