@@ -583,18 +583,22 @@ details {
   .publication-layout {
     display: flex;
     gap: 1.5em;
-    align-items: flex-start;
+    align-items: stretch; // Allow images to stretch to full height
     flex-direction: row !important; // Force left-right layout even on smaller screens
   }
   
   .publication-image {
     flex-shrink: 0;
-    width: 120px;
-    height: 80px;
+    width: 140px;
+    height: auto;
+    min-height: 120px;
     border-radius: 6px;
     overflow: hidden;
     background: #f8f9fa;
     border: 1px solid #e0e0e0;
+    align-self: stretch; // Fill the full height of the container
+    display: flex;
+    align-items: center;
     
     img {
       width: 100%;
@@ -1058,8 +1062,10 @@ details {
     }
     
     .publication-image {
-      width: 80px;
-      height: 60px;
+      width: 100px;
+      height: auto;
+      min-height: 80px;
+      align-self: stretch;
     }
     
     .publication-details {
