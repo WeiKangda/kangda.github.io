@@ -96,7 +96,7 @@ I am a second-year PhD student in the [Natural Language Processing Group](https:
     <div class="services-section">
       <h3>Professional Services</h3>
       <ul class="services-list">
-        <li>Reviewer for ACL Rolling Review (ARR) since January 2024</li>
+        <li>Reviewer for ACL Rolling Review (ARR) since January 2024, covering ACL/NAACL/EACL/AACL/EMNLP.</li>
         <li>Reviewer for IEEE/CVF WACV 2025</li>
         <li>Reviewer for The Computer Journey</li>
       </ul>
