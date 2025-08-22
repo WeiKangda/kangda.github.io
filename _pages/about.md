@@ -182,7 +182,7 @@ I am a second-year PhD student in the [Natural Language Processing Group](https:
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/North_Carolina_Tar_Heels_logo.svg/150px-North_Carolina_Tar_Heels_logo.svg.png" alt="UNC">
           </div>
           <div class="experience-body">
-            <div class="experience-date">Aug 2021 - Jun 2023</div>
+            <div class="experience-date">Jan 2021 - Jun 2023</div>
             <div class="experience-content">
               <h4>Research Assistant</h4>
               <p class="institution">University of North Carolina, Chapel Hill NC</p>
