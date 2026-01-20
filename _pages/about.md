@@ -41,6 +41,10 @@ I am a third-year PhD student in the [Natural Language Processing Group](https:/
     <h4>🎬 Video Understanding</h4>
     <p>Analyzing and interpreting temporal visual content</p>
   </div>
+  <div class="interest-card">
+    <h4>🎮 Reinforcement Learning</h4>
+    <p>Post-training and alignment of LLMs with RL-based methods</p>
+  </div>
 </div>
 
 ## Background
