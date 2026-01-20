@@ -16,7 +16,7 @@ redirect_from:
 
 ## About Me
 
-I am a second-year PhD student in the [Natural Language Processing Group](https://nlp.cs.tamu.edu) at Texas A&M University, where I am advised by Professor [Ruihong Huang](https://people.engr.tamu.edu/huangrh/index.html). Before becoming an Aggie, I graduated with a BS/MS degree in Computer Science from the University of North Carolina at Chapel Hill, where I was advised by Professor [Shashank Srivastava](https://www.ssriva.com).
+I am a third-year PhD student in the [Natural Language Processing Group](https://nlp.cs.tamu.edu) at Texas A&M University, where I am advised by Professor [Ruihong Huang](https://people.engr.tamu.edu/huangrh/index.html). Before becoming an Aggie, I graduated with a BS/MS degree in Computer Science from the University of North Carolina at Chapel Hill, where I was advised by Professor [Shashank Srivastava](https://www.ssriva.com).
 
 ## Research Interests
 
@@ -200,6 +200,16 @@ I am a second-year PhD student in the [Natural Language Processing Group](https:
 ## Recent News
 
 <div class="news-container">
+  <div class="news-item">
+    <span class="news-date">2026</span>
+    <span class="news-badge preprint">Preprint</span>
+    <p>New preprint: "MMR-GRPO: Accelerating GRPO-Style Training through Diversity-Aware Reward Reweighting" <a href="https://arxiv.org/abs/2601.09085">[PDF]</a></p>
+  </div>
+  <div class="news-item">
+    <span class="news-date">2025</span>
+    <span class="news-badge acl">AACL 2025</span>
+    <p>Paper accepted to Findings of AACL 2025: "ENG-DRB: PDTB-style Discourse Relation Bank on Engineering Tutorial Video Scripts" <a href="https://aclanthology.org/2025.findings-ijcnlp.81/">[PDF]</a></p>
+  </div>
   <div class="news-item">
     <span class="news-date">2025</span>
     <span class="news-badge acl">EMNLP 2025</span>
