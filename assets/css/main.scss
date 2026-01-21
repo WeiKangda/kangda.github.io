@@ -184,8 +184,11 @@
     }
   }
   
-  .education-section, .services-section, .awards-section, .talks-section {
-    h3 {
+  .background-left, .background-right {
+    .education-section h3,
+    .services-section h3,
+    .awards-section h3,
+    .talks-section h3 {
       font-size: 1.2em;
       color: #333;
       margin-bottom: 0.8em;
