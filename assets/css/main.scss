@@ -184,17 +184,16 @@
     }
   }
   
-  .background-left, .background-right {
-    .education-section h3,
-    .services-section h3,
-    .awards-section h3,
-    .talks-section h3 {
-      font-size: 1.2em;
-      color: #333;
-      margin-bottom: 0.8em;
-      padding-bottom: 0.3em;
-      border-bottom: 1px solid #e0e0e0;
-    }
+  .background-left .education-section h3,
+  .background-left .services-section h3,
+  .background-left .awards-section h3,
+  .background-left .talks-section h3,
+  .background-right .experience-section h3 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 0.8em;
+    padding-bottom: 0.3em;
+    border-bottom: 1px solid #e0e0e0;
   }
 
   .services-section, .awards-section, .talks-section {
