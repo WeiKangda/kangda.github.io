@@ -184,9 +184,9 @@
     }
   }
   
-  .services-section, .awards-section {
+  .services-section, .awards-section, .talks-section {
     margin-top: 2em;
-    
+
     h3 {
       font-size: 1.2em;
       color: #333;
@@ -194,11 +194,11 @@
       padding-bottom: 0.3em;
       border-bottom: 1px solid #e0e0e0;
     }
-    
-    .services-list, .awards-list {
+
+    .services-list, .awards-list, .talks-list {
       margin: 0;
       padding-left: 1.2em;
-      
+
       li {
         margin-bottom: 0.5em;
         color: #666;
