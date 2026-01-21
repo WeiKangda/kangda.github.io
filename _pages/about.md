@@ -113,6 +113,13 @@ I am a third-year PhD student in the [Natural Language Processing Group](https:/
         <li>Ph.D Qualification Exam - 98th percentile (2024)</li>
       </ul>
     </div>
+
+    <div class="talks-section">
+      <h3>Invited Talks</h3>
+      <ul class="talks-list">
+        <li>CSCE 470 Information Retrieval, Texas A&M University (Spring 2026)</li>
+      </ul>
+    </div>
   </div>
   
   <div class="background-right">
