@@ -51,8 +51,9 @@ I am a third-year PhD student in the [Natural Language Processing Group](https:/
 
 <div class="background-container">
   <div class="background-left">
-    <h3>Education</h3>
-    <div class="education-timeline">
+    <div class="education-section">
+      <h3>Education</h3>
+      <div class="education-timeline">
       <div class="education-item">
         <div class="education-logo">
           <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Texas_A%26M_University_logo.svg/150px-Texas_A%26M_University_logo.svg.png" alt="Texas A&M">
@@ -95,8 +96,9 @@ I am a third-year PhD student in the [Natural Language Processing Group](https:/
           </div>
         </div>
       </div>
+      </div>
     </div>
-    
+
     <div class="services-section">
       <h3>Professional Services</h3>
       <ul class="services-list">
