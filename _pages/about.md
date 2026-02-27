@@ -130,6 +130,18 @@ I am a third-year PhD student in the [Natural Language Processing Group](https:/
       <div class="experience-timeline">
         <div class="experience-item">
           <div class="experience-logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/200px-Amazon_logo.svg.png" alt="Amazon">
+          </div>
+          <div class="experience-body">
+            <div class="experience-date">May 2026 - Aug 2026</div>
+            <div class="experience-content">
+              <h4>Applied Scientist</h4>
+              <p class="institution">Amazon</p>
+            </div>
+          </div>
+        </div>
+        <div class="experience-item">
+          <div class="experience-logo">
             <img src="https://logos-world.net/wp-content/uploads/2020/08/Bosch-Logo.png" alt="Bosch">
           </div>
           <div class="experience-body">
