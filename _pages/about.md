@@ -135,7 +135,7 @@ I am a third-year PhD student in the [Natural Language Processing Group](https:/
           <div class="experience-body">
             <div class="experience-date">May 2026 - Aug 2026</div>
             <div class="experience-content">
-              <h4>Applied Scientist</h4>
+              <h4>Applied Scientist Intern</h4>
               <p class="institution">Amazon, Santa Clara CA</p>
             </div>
           </div>
