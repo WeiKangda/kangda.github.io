@@ -147,7 +147,7 @@ I am a third-year PhD student in the [Natural Language Processing Group](https:/
           <div class="experience-body">
             <div class="experience-date">May 2024 - Aug 2024</div>
             <div class="experience-content">
-              <h4>Research Intern</h4>
+              <h4>Research Scientist Intern</h4>
               <p class="institution">Bosch Center for Artificial Intelligence (BCAI), Sunnyvale CA</p>
               <p class="details">Video Understanding with Multi-Modal Multi-Agent System</p>
               <p class="mentors">Mentors: Zhengyu Zhou, Bingqing Wang, Jun Araki, Lukas Lange, Zhe Feng</p>
