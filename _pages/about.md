@@ -227,6 +227,11 @@ I am a third-year PhD student in the [Natural Language Processing Group](https:/
 <div class="news-container">
   <div class="news-item">
     <span class="news-date">2026</span>
+    <span class="news-badge achievement">Internship</span>
+    <p>Will be joining Amazon as an Applied Scientist Intern in Santa Clara, CA for Summer 2026!</p>
+  </div>
+  <div class="news-item">
+    <span class="news-date">2026</span>
     <span class="news-badge preprint">Preprint</span>
     <p>New preprint: "MMR-GRPO: Accelerating GRPO-Style Training through Diversity-Aware Reward Reweighting" <a href="https://arxiv.org/abs/2601.09085">[PDF]</a></p>
   </div>
@@ -264,7 +269,8 @@ I am a third-year PhD student in the [Natural Language Processing Group](https:/
 <details>
   <summary>Show more news...</summary>
   <div class="older-news">
-    <p>• 2024 - Joined Bosch Research as Applied Scientist Intern</p>
+    <p>• 2026 - Joining Amazon as Applied Scientist Intern</p>
+    <p>• 2024 - Joined Bosch Center for Artificial Intelligence (BCAI) as Research Scientist Intern</p>
     <p>• 2023 - Joined the NLP lab at Texas A&M University</p>
     <p>• 2023 - Completed MS in Computer Science at UNC-Chapel Hill</p>
     <p>• 2022 - Completed BS in Computer Science and BS in Statistics at UNC-Chapel Hill</p>
