@@ -269,7 +269,6 @@ I am a third-year PhD student in the [Natural Language Processing Group](https:/
 <details>
   <summary>Show more news...</summary>
   <div class="older-news">
-    <p>• 2026 - Joining Amazon as Applied Scientist Intern</p>
     <p>• 2024 - Joined Bosch Center for Artificial Intelligence (BCAI) as Research Scientist Intern</p>
     <p>• 2023 - Joined the NLP lab at Texas A&M University</p>
     <p>• 2023 - Completed MS in Computer Science at UNC-Chapel Hill</p>
