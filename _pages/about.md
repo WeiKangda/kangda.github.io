@@ -215,6 +215,7 @@ I am a third-year PhD student in the [Natural Language Processing Group](https:/
               <p class="institution">University of North Carolina, Chapel Hill NC</p>
               <p class="details">Learning from Language Lab</p>
               <p class="advisor">Advisor: Prof. Shashank Srivastava</p>
+              <p class="mentors">Mentors: Sayan Ghosh, Rakesh R Menon</p>
             </div>
           </div>
         </div>
