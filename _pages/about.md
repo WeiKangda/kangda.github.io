@@ -184,7 +184,8 @@ I am a third-year PhD student in the [Natural Language Processing Group](https:/
               <h4>Visiting Research Assistant</h4>
               <p class="institution">Johns Hopkins University, Baltimore MD</p>
               <p class="details">Machine Reading & Question Decomposition</p>
-              <p class="advisor">Mentor: Prof. Benjamin van Durme</p>
+              <p class="advisor">Advisor: Prof. Benjamin van Durme</p>
+              <p class="mentors">Mentors: Yunmo Chen, Orion Weller</p>
             </div>
           </div>
         </div>
@@ -198,7 +199,8 @@ I am a third-year PhD student in the [Natural Language Processing Group](https:/
               <h4>Visiting Research Assistant</h4>
               <p class="institution">University of California, Santa Barbara CA</p>
               <p class="details">Multilingual COVID-19 Question Answering System</p>
-              <p class="advisor">Mentor: Prof. William Wang</p>
+              <p class="advisor">Advisor: Prof. William Wang</p>
+              <p class="mentors">Mentor: Alon Albalak</p>
             </div>
           </div>
         </div>
