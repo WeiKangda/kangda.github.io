@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /
-title: "About me"
+title: "Howdy! Welcome to my corner of the internet 🤠"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -13,7 +13,7 @@ redirect_from:
   <img src="/kangda.github.io/images/tamu_campus.jpg" alt="Texas A&M University Campus">
 </div>
 
-## Howdy! Welcome to my corner of the internet 🤠
+## About me
 
 I am a third-year PhD student in the [Natural Language Processing Group](https://nlp.cs.tamu.edu) at Texas A&M University, where I am advised by Professor [Ruihong Huang](https://people.engr.tamu.edu/huangrh/index.html). Before becoming an Aggie, I graduated with a BS/MS degree in Computer Science from the University of North Carolina at Chapel Hill, where I was advised by Professor [Shashank Srivastava](https://www.ssriva.com).
 
