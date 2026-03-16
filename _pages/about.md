@@ -10,11 +10,10 @@ redirect_from:
 ---
 
 <div class="hero-section">
-  <h2 class="welcome-text">Welcome! I'm Kangda Wei</h2>
-  <p class="tagline">PhD Student in Natural Language Processing at Texas A&M University</p>
+  <img src="/kangda.github.io/images/tamu_campus.jpg" alt="Texas A&M University Campus">
 </div>
 
-## About Me
+## Howdy! Welcome to my corner of the internet 🤠
 
 I am a third-year PhD student in the [Natural Language Processing Group](https://nlp.cs.tamu.edu) at Texas A&M University, where I am advised by Professor [Ruihong Huang](https://people.engr.tamu.edu/huangrh/index.html). Before becoming an Aggie, I graduated with a BS/MS degree in Computer Science from the University of North Carolina at Chapel Hill, where I was advised by Professor [Shashank Srivastava](https://www.ssriva.com).
 

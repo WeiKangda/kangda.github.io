@@ -91,52 +91,14 @@
 
 // Hero Section
 .hero-section {
-  position: relative;
-  text-align: center;
-  padding: 3em 0;
   margin-bottom: 2em;
   border-radius: 10px;
-  color: white;
   overflow: hidden;
 
-  &::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: url('/kangda.github.io/images/tamu_campus.jpg') center/cover no-repeat;
-    z-index: 0;
-  }
-
-  &::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.4);
-    z-index: 1;
-  }
-
-  .welcome-text {
-    position: relative;
-    z-index: 2;
-    font-size: 2.5em;
-    margin-bottom: 0.3em;
-    font-weight: 700;
-    text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
-  }
-
-  .tagline {
-    position: relative;
-    z-index: 2;
-    font-size: 1.2em;
-    opacity: 0.95;
-    margin: 0;
-    text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+  img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
   }
 }
 
@@ -1073,16 +1035,6 @@ details {
 
 // Mobile responsiveness
 @media (max-width: 768px) {
-  .hero-section {
-    .welcome-text {
-      font-size: 1.8em;
-    }
-    
-    .tagline {
-      font-size: 1em;
-    }
-  }
-  
   .research-interests-grid {
     grid-template-columns: 1fr;
   }
