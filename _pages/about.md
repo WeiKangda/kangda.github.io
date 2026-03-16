@@ -56,7 +56,7 @@ I am a third-year PhD student in the [Natural Language Processing Group](https:/
       <div class="education-timeline">
         <div class="education-item">
         <div class="education-logo">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Texas_A%26M_University_logo.svg/150px-Texas_A%26M_University_logo.svg.png" alt="Texas A&M">
+          <img src="/kangda.github.io/images/tamu_logo.svg" alt="Texas A&M">
         </div>
         <div class="education-body">
           <div class="education-date">2023 - Present</div>
@@ -71,7 +71,7 @@ I am a third-year PhD student in the [Natural Language Processing Group](https:/
       </div>
       <div class="education-item">
         <div class="education-logo">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/North_Carolina_Tar_Heels_logo.svg/150px-North_Carolina_Tar_Heels_logo.svg.png" alt="UNC">
+          <img src="/kangda.github.io/images/unc_logo.svg" alt="UNC">
         </div>
         <div class="education-body">
           <div class="education-date">2022 - 2023</div>
@@ -85,7 +85,7 @@ I am a third-year PhD student in the [Natural Language Processing Group](https:/
       </div>
       <div class="education-item">
         <div class="education-logo">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/North_Carolina_Tar_Heels_logo.svg/150px-North_Carolina_Tar_Heels_logo.svg.png" alt="UNC">
+          <img src="/kangda.github.io/images/unc_logo.svg" alt="UNC">
         </div>
         <div class="education-body">
           <div class="education-date">2019 - 2022</div>
@@ -130,7 +130,7 @@ I am a third-year PhD student in the [Natural Language Processing Group](https:/
       <div class="experience-timeline">
         <div class="experience-item">
           <div class="experience-logo">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/200px-Amazon_logo.svg.png" alt="Amazon">
+            <img src="/kangda.github.io/images/amazon_logo.png" alt="Amazon">
           </div>
           <div class="experience-body">
             <div class="experience-date">May 2026 - Aug 2026</div>
@@ -142,7 +142,7 @@ I am a third-year PhD student in the [Natural Language Processing Group](https:/
         </div>
         <div class="experience-item">
           <div class="experience-logo">
-            <img src="https://logos-world.net/wp-content/uploads/2020/08/Bosch-Logo.png" alt="Bosch">
+            <img src="/kangda.github.io/images/bosch_logo.png" alt="Bosch">
           </div>
           <div class="experience-body">
             <div class="experience-date">May 2024 - Aug 2024</div>
@@ -162,7 +162,7 @@ I am a third-year PhD student in the [Natural Language Processing Group](https:/
       <div class="experience-timeline">
         <div class="experience-item">
           <div class="experience-logo">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Texas_A%26M_University_logo.svg/150px-Texas_A%26M_University_logo.svg.png" alt="Texas A&M">
+            <img src="/kangda.github.io/images/tamu_logo.svg" alt="Texas A&M">
           </div>
           <div class="experience-body">
             <div class="experience-date">Aug 2023 - Present</div>
@@ -206,7 +206,7 @@ I am a third-year PhD student in the [Natural Language Processing Group](https:/
         </div>
         <div class="experience-item">
           <div class="experience-logo">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/North_Carolina_Tar_Heels_logo.svg/150px-North_Carolina_Tar_Heels_logo.svg.png" alt="UNC">
+            <img src="/kangda.github.io/images/unc_logo.svg" alt="UNC">
           </div>
           <div class="experience-body">
             <div class="experience-date">Jan 2021 - Jun 2023</div>
