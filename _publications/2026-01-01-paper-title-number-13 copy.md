@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2026-01-01-paper-title-number-13
 excerpt:
 date: 2026-1-14
-venue: preprint
+venue: Findings of the Association for Computational Linguistics (ACL) 2026
 author: Kangda Wei, Ruihong Huang
 paperurl: https://arxiv.org/abs/2601.09085
 citation:

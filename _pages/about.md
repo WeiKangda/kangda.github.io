@@ -234,8 +234,8 @@ I am a third-year PhD student in the [Natural Language Processing Group](https:/
   </div>
   <div class="news-item">
     <span class="news-date">2026</span>
-    <span class="news-badge preprint">Preprint</span>
-    <p>New preprint: "MMR-GRPO: Accelerating GRPO-Style Training through Diversity-Aware Reward Reweighting" <a href="https://arxiv.org/abs/2601.09085">[PDF]</a></p>
+    <span class="news-badge acl">ACL 2026</span>
+    <p>Paper accepted to Findings of ACL 2026: "MMR-GRPO: Accelerating GRPO-Style Training through Diversity-Aware Reward Reweighting" <a href="https://arxiv.org/abs/2601.09085">[PDF]</a></p>
   </div>
   <div class="news-item">
     <span class="news-date">2025</span>
