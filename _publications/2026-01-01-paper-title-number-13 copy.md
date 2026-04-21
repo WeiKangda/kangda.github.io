@@ -8,7 +8,7 @@ venue: Findings of the Association for Computational Linguistics (ACL) 2026
 author: Kangda Wei, Ruihong Huang
 paperurl: https://arxiv.org/abs/2601.09085
 citation:
-code: 
+code: https://github.com/WeiKangda/MMR-GRPO
 data:
 image: images/paper13.PNG
 ---
