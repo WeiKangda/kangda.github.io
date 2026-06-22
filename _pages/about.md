@@ -101,6 +101,7 @@ I am a third-year PhD student in the [Natural Language Processing Group](https:/
     <div class="services-section">
       <h3>Professional Services</h3>
       <ul class="services-list">
+        <li>Reviewer for Neural Information Processing Systems (NeurIPS) 2026</li>
         <li>Reviewer for ACL Rolling Review (ARR) since January 2024, covering ACL/NAACL/EACL/AACL/EMNLP.</li>
         <li>Reviewer for IEEE/CVF WACV 2025</li>
         <li>Reviewer for The Computer Journey</li>
@@ -110,7 +111,9 @@ I am a third-year PhD student in the [Natural Language Processing Group](https:/
     <div class="awards-section">
       <h3>Awards & Recognition</h3>
       <ul class="awards-list">
-        <li>Texas A&M University CSE Department Travel Grant (2023, 2024)</li>
+        <li>Outstanding PhD Research Award (one per year), Texas A&M University CSE Department (2026)</li>
+        <li>Texas A&M University Graduate School Travel Grant (2026)</li>
+        <li>Texas A&M University CSE Department Travel Grant (2023, 2024, 2025, 2026)</li>
         <li>Ph.D Qualification Exam - 98th percentile (2024)</li>
       </ul>
     </div>
