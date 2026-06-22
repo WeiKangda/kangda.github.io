@@ -17,13 +17,12 @@ layout: compress
     {% include masthead.html %}
 
     {{ content }}
-    <!-- ClustrMaps 已停用(域名 SERVFAIL,无法加载);保留以备参考。改用 RevolverMaps,见下方。
-    <script type="text/javascript" id="clustrmaps"
-      src="//clustrmaps.com/map_v2.js?d=V2qilwDgbwSFWMb_QiOaxYvWJKI5nlsyE2t8jVvBZwA&cl=ffffff&w=200&h=150">
-    </script>
-    -->
 
-    <!-- RevolverMaps: 在此粘贴 revolvermaps.com 生成的嵌入脚本 -->
+    <!-- 访客地图: ClustrMaps 已更名为 MapMyVisitors,沿用原 map ID(历史数据保留)。
+         新版嵌入路径为 mapmyvisitors.com/map.js (旧的 map_v2.js 已 404)。 -->
+    <script type="text/javascript" id="mapmyvisitors"
+      src="//mapmyvisitors.com/map.js?cl=ffffff&w=200&t=tt&d=V2qilwDgbwSFWMb_QiOaxYvWJKI5nlsyE2t8jVvBZwA">
+    </script>
 
 
     <div class="page__footer">
