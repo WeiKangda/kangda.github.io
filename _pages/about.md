@@ -135,10 +135,11 @@ I am a third-year PhD student in the [Natural Language Processing Group](https:/
             <img src="/kangda.github.io/images/amazon_logo.png" alt="Amazon">
           </div>
           <div class="experience-body">
-            <div class="experience-date">May 2026 - Aug 2026</div>
+            <div class="experience-date">May 2026 - Dec 2026</div>
             <div class="experience-content">
               <h4>Applied Scientist Intern</h4>
               <p class="institution">Amazon, Santa Clara CA</p>
+              <p class="details">Full-time (May - Aug 2026), Part-time (Aug - Dec 2026)</p>
             </div>
           </div>
         </div>
