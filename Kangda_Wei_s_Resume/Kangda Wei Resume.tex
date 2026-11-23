@@ -1,0 +1,285 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rishi Shah 
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+\newcommand{\kangda}[1]{\textcolor{brown}{\small{\bf [ #1 -- Kangda ]}}}
+\documentclass[a4paper, 12pt]{resume} % Use the custom resume.cls style
+\usepackage{url}
+\usepackage[left=0.6in,top=0.6in,right=0.6in,bottom=0.6in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.1\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Kangda Wei} % Your name
+\address{L.F. Peterson Building, Room 330, 435 Nagle St, College Station, TX 77843} % Your address
+%\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
+\address{\url{https://weikangda.github.io/kangda.github.io}}
+\address{(919) 904-5280 \\ kangda@tamu.edu \\ hansonwei666@gmail.com} % Your phone number and email
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	Research Interest SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Research Interest}
+Natural Language Processing, Large Language Model, LLM Reasoning, Post-Training, Multi-Modal, Agentic Systems
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	Education Background SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Education}
+{\bf Texas A\&M University} \hfill {College Station, TX \\
+{\em Doctor of Philosophy in Computer Science. Advisor: Ruihong Huang.} \hfill Aug 2023 - May 2028 (Expected)} \\
+%\begin{itemize}[leftmargin=*]
+%\item {\bf Graduate Research Assistant}: Advised by Professor Ruihong Huang.
+%\end{itemize}
+{\bf University of North Carolina at Chapel-Hill} \hfill {Chapel-Hill, NC \\
+{\em Master of Science in Computer Science. Advisor: Shashank Srivastava.} \hfill Aug 2022 - May 2023} \\
+%\begin{itemize}[leftmargin=*]
+%\item {\bf Graduate Research Assistant}: Advised by Professor Shashank Srivastava.
+%\item {\bf Graduate Teaching Assistant}: COMP431 Internet Service and Protocol, COMP211 System Fundamentals
+%\end{itemize}
+{\bf University of North Carolina at Chapel-Hill} \hfill {Chapel-Hill, NC \\
+{\em B.S. in Computer Science, B.S. in Statistics and Operational Research, GPA: 3.812/4.0} \hfill Aug 2019 - May 2022}
+%\begin{itemize}[leftmargin=*]
+%\item {\bf GPA}: 3.812/4.0
+%\item {\bf Relevant coursework}: Foundation of Programming, Data Structures, Algorithms and Analysis, Computational Photograph, Optimization, Structured Prediction, Machine Learning \& Deep Learning, Programming Language, Time Series, Simulation Analysis, Stochastic Modeling, Linear Algebra, Computer Organization, Reinforcement Learning
+%\end{itemize}
+%{\bf Online courses}
+%\begin{itemize}[leftmargin=*]
+%\item Stanford CS224n (NLP), Machine Learning, Deep Learning Specialization Series taught by Andrew Ng on Coursera
+
+%\end{itemize}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Industry Experience}
+{\bf Applied Scientist Intern} \\
+{\em Amazon}\hfill{Santa Clara, CA}\\
+{\em Self-Attribution-Guided Self-Evolving, Mentor: Hao Chen, Manager: Gokce Keskin}\hfill{May 2026 - Dec 2026} \\
+{\bf Research Scientist Intern} \\
+{Bosch Center for Artificial Intelligence (BCAI)}\hfill{Sunnyvale, CA}\\
+{\em Multi-Agent Video Understanding, Mentor: Zhengyu Zhou}\hfill{May 2024 - Aug 2024}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	Research EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Research Experience}
+{\bf OpenRSI-AI-Infra-Bench: Benchmarking Recursive Self-Improvement of Agents on AI Serving}
+\begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
+\item Co-led (co-first author) a benchmark, built with the SGLang-Omni team, where coding agents iteratively optimize a production serving stack on one GPU; each speedup is verified under quality and latency constraints and becomes the next baseline.
+\item Built 8 reproducible serving optimization tasks for open-weight TTS/ASR models (e.g., Qwen3-TTS, Whisper large-v3, CosyVoice3) with pinned code, dependencies, and evaluation protocols.
+\item Benchmarked Claude Code and Codex in 24-hour runs on one H100, reaching up to $6.3\times$ verified throughput; agent-found optimizations led to 14 PRs merged into upstream SGLang-Omni.
+\item \emph{Status:} Paper under preparation for submission to ICML 2027; part of the OpenRSI-Index Project (co-author).
+\end{itemize}
+
+{\bf Self-Attribution-Guided Prompt Evolution for  Large Language Models}
+\begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
+\item Proved that prompt optimizers steering only by task reward are provably blind among tied candidates, and that a prefill-only teacher-forced log-likelihood, the self-attribution score, certifies a gradient-free lower bound on the information they discard.
+\item Developed SAGE, a drop-in extension to a state-of-the-art reflective prompt optimizer over a frozen model, wiring this signal into parent selection and child acceptance as an accuracy-gated constraint rather than a reward.
+\item Achieved the highest Accuracy@4 on four open-weights models spanning a $30\times$ size range and six tasks, beating the strongest accuracy-only optimizer by up to $+4.0$ points while cutting regressions $4\times$, with gains holding under difficulty shift, cross-model transfer, and black-box deployment.
+\item \emph{Status:} Paper submitted to ICLR 2027; conducted during Applied Scientist internship at Amazon.
+\end{itemize}
+
+
+{\bf Accelerating Mathematical Reasoning Model Training via Diversity-Aware Reward Reweighting}
+\begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
+\item Developed MMR-GRPO, a training-efficient approach that integrates Maximal Marginal Relevance into Group Relative Policy Optimization to accelerate convergence by prioritizing semantically diverse completions and downweighting redundant solutions.
+\item Designed a parameter-free adaptive mechanism that automatically balances diversity and reward quality without hyperparameter tuning, enabling robust performance across different training configurations.
+\item Achieved 47.9\% reduction in training steps and 70.2\% reduction in wall-clock training time while maintaining comparable peak performance across three model sizes (1.5B, 7B, 8B), three RL methods (GRPO, DR-GRPO, DAPO), and five mathematical reasoning benchmarks (AIME 2024, AMC 2023, MATH-500, Minerva Math, OlympiadBench).
+\item Demonstrated minimal computational overhead (1-5\% per-step) through vectorized GPU operations for embedding extraction and similarity computation, making the approach practical for resource-constrained settings.
+%\item \emph{Status:} Paper submitted to ACL 2026; code and models to be released upon acceptance.
+\end{itemize}
+
+{\bf Mitigating Bias and Improving Reasoning in LLMs via Exploratory Thinking and RL}
+%{\em Texas A\&M University}\hfill{College Station, TX}\\
+%{\em Research Assistant, Mentor: Prof.Ruihong Huang}\hfill{Feb 2025 - Aug 2025}
+\begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
+\item Proposed a novel data generation framework that encourages exploratory thinking in LLMs by prompting them to reason over structurally identical, morally ambiguous story pairs with male and female protagonists. 
+\item Designed a guided judgement reconciliation process to uncover and mitigate biased moral reasoning, producing balanced gender-neutral story-judgement pairs. 
+\item Performed SFT and DPO on LLMs, achieving substantial gender bias reduction on WinoBias and GenMO benchmarks without sacrificing performance on MMLU and TruthfulQA.
+%\item \emph{Ongoing:} Extending framework to other forms of social bias (e.g., race, social status) 
+\end{itemize}
+
+
+%{\bf Multi-Agent Systems with LLMs/VLMs for Nuclear Safety Anlysis and Video Understanding}
+%{\em Texas A\&M University; Robert Bosch Research and Technology Center North America} \hfill{College Station, TX \& Sunnyvale, CA}\\
+%{\em Research Assistant (Mentor: Prof. Ruihong Huang); NLP \& LLMs Intern (Mentor: Zhengyu Zhou)} \hfill{May 2024 -- Present}
+%\begin{itemize}[noitemsep, topsep=0pt,leftmargin=*]
+%\item Designed and implemented multi-agent systems that leverage LLMs and VLMs for two domains: 
+%  \begin{itemize}[noitemsep, topsep=0pt,leftmargin=*]
+%    \item {\em Nuclear Safety:} Developed a BFS-based multi-agent framework for automatic nuclear fault tree generation in collaboration with Idaho National Laboratory (INL). Built a large-scale nuclear safety dataset via OCR and expert validation; benchmarked multiple LLMs/VLMs for fault analysis tasks. 
+%    \item {\em Video Understanding:} Proposed an end-to-end multi-agent multi-modal framework for advanced indexing of lecture/presentation-style videos. Combined VLM-based shot detection with multi-agent collaboration to capture rich cross-modal information for scalable downstream use. Conducted systematic evaluations, including intrinsic human evaluation (Amazon Mechanical Turk) and extrinsic QA benchmarks, on both public and enterprise datasets. 
+%  \end{itemize}
+%\item Outcomes: one paper published/submitted to top-tier NLP conferences (EMNLP/ACL/AACL 2025) and a patent application filed with the USPTO. 
+%\end{itemize}
+
+%{\bf Event Understanding and Coreference in Long Documents}
+%{\em Texas A\&M University}\hfill{College Station, TX}\\
+%{\em Research Assistant, Mentor: Prof. Ruihong Huang}\hfill{Aug 2023 -- Feb 2025}
+%\begin{itemize}[noitemsep, topsep=0pt,leftmargin=*]
+%\item Introduced {\em LegalCore}, the first dataset in the legal domain annotated with comprehensive event and event coreference information. 
+%\item Benchmarked mainstream LLMs on discourse-level event relation extraction and event coreference tasks, showing that both remain challenging for LLMs. 
+%\item Provided strong supervised baselines by fine-tuning smaller language models and conducted extensive empirical analysis, highlighting weaknesses of GPT models in hallucination control, transitivity, and long-range dependency capture.  
+%\item Published in {\em Findings of EMNLP 2024} and {\em ACL 2025}.  
+%\end{itemize}
+
+%{\bf When Do Decompositions Help for Machine Reading?} \\
+%{\em  Johns Hopkins University}\hfill{Baltimore, MD}\\
+%{\em Visiting Research Assistant, Mentor: Prof.Benjamin van Durme}\hfill{May 2022 - May 2023}
+%\begin{itemize}[noitemsep, topsep=0pt,leftmargin=*]
+%\item Explored the effect of decomposition on machine reading with an exhaustive set of variants across a range of models over the high-level Question Decomposition Meaning Representation (QDMR) BREAK dataset using various LLMs, including T-5, Alpaca, and LLaMA.
+%\item Discovered that question decomposition is not helpful for machine reading but rather harmful. 
+%\item Conducted a qualitative error analysis, showing that machine reading using question decomposition struggle due to compound error and question decomposition in bad formats.
+%\item Published paper at {\em Proceedings of the Empirical Methods in Natural Language Processing 2023}.
+%\end{itemize}
+
+
+%{\bf Leveraging Multiple Teachers for Test-Time Adaptation of Language-Guided Classifiers} \\
+%{\em  The University of North Carolina at Chapel Hill}\hfill{Chapel Hill, NC}\\
+%{\em Research Assistant, Mentor: Prof.Shashank Srivastava}\hfill{Apr 2022 - May 2023}
+%\begin{itemize}[noitemsep, topsep=0pt,leftmargin=*]
+%\item Present a framework for test-time adaptation of language explanation-guided classifiers towards a specific task during inference.
+%\item Achieved 8\% higher classification accuracy by utilizing label aggregation with language models, including RoBERTa, T0, OPT, and Flan-T5, for test-time adaptation, and three times better accuracy comparing to baselines with zero-shot learning.
+%\item Further improved the accuracy by 20\% by incorporating self-learning by fine-tuning pre-trained LM on noisy labeled data.
+%\item Conducted qualitative analysis for framework's interpretability.
+%\item Simplify and improve the label aggregation technique by replacing hand-written labeling functions with LM.
+%\item Published paper at {\em Findings of the Empirical Methods in Natural Language Processing 2023}.
+%\end{itemize}
+
+%{\bf Compositional Generalization for Kinship Prediction through Data Augmentation} \\
+%{\em  The University of North Carolina at Chapel Hill}\hfill{Chapel Hill, NC}\\
+%{\em Research Assistant, Mentor: Prof.Shashank Srivastava}\hfill{Feb 2021 - Mar 2022}
+%\begin{itemize}[noitemsep, topsep=0pt,leftmargin=*]
+%\item Evaluated empirically the utility of data augmentation and intermediate structured representations towards compositional generalization for the task of kinship prediction from a story.
+%\item Tested the impact of incorporating data augmentation and intermediate structured data on model's performance. Data augmentation boosted generalization performance by around 20\% on average relative to a baseline model from prior work. 
+%\item Found that predicting and using intermediate kinship graphs led to a deterioration in the generalization of kinship prediction.
+%\item Published paper at {\em Proceedings of the 4th Workshop of Narrative Understanding (WNU2022)}.
+%\end{itemize}
+
+%{\bf A Multilingual COVID-19 Question Answering System} \\
+%{\em University of California, Santa Barbara}\hfill{Santa Barbara, CA}\\
+%{\em Visiting Research Assistant, Mentor: Prof.William Wang}\hfill{May 2021 - Aug 2021}
+%\begin{itemize}[leftmargin=*]
+%\item Established a multilingual COVID-19 Question Answering system using mBERT and XLM-Roberta models.
+%\item Focused primarily on building and training the Reading Comprehension part of the QA system, including collecting %nd processing the data, and performing machine translation on large-scale natural language dataset.
+%\item Performed large-scale neural machine translation on entire CORD-19 dataset to acquire data in Chinese and French to alleviate the data scarcity problem in foreign languages.
+%\item Reached an F1 score of 60.5 for the reading comprehension model of the final QA system.
+%\end{itemize}
+
+%{\bf Temporal and Spatial Analysis on U.S. Domestic Mobility} \\
+%{\em Research Assistant}\hfill{Chapel Hill, NC}\\
+%{\em Mentor: Prof.Weizi Li at the University of Memphis, Prof.Lei %Lin at University of Rochester}\hfill{Jun 2020 - Oct 2020}
+%\begin{itemize}[leftmargin=*]
+%\item Investigated the impact of COVID-19 on the United States %mobility through temporal and spatial analysis with network models.
+%\item Collected relative datasets from GitHub, Kaggle, New York Times and Google Search Trends; Preprocessed data with Python and implemented the model with Networkx package.
+%\item Published paper in the 20th and 21st Joint COTA International Conference of Transportation Professionals.
+%\end{itemize}
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%   Publication SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Publications}
+\begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
+\item {\bf Kangda Wei}, Hao Chen, Pei Chen, Zhe Su, Tianyi Wu, Ankit Patel, Baixiang Huang, Changsheng Wang, Qizhang Feng, Boshi Huang, Jing Huang, Dongmei Jia, Gokce Keskin. SAGE: Self-Attribution-Guided Evolving. %In submission
+\item Leyuan Tang, {\bf Kangda Wei}, Tianyu Jiang, Ruihong Huang. Measuring LLM Sycophancy under Sustained Multi-Turn Pressure. %In submission
+\item {\bf Kangda Wei}, Ziqian Bi, Ashish Molakalapalli, Haonan Duan, Xiaowei Zou, Vincent Du, Alex Carter, Ruihong Huang. Predicting LLM Training and Inference Runtime: A Survey of Methods, Datasets, and Open Challenges. {\em Findings of the Empirical Methods in Natural Language Processing 2026.}
+\item {\bf Kangda Wei}, Ruihong Huang. MMR-GRPO: Accelerating GRPO-Style Training through Diversity-Aware Reward Reweighting. {\em Findings of the Association for Computational Linguistics (ACL) 2026}
+\item Cheng Zhang, Rajasekhar Kakarla, {\bf Kangda Wei}, Ruihong Huang. ENG-DRB: PDTB-style Discourse Relation Bank on Engineering Tutorial Video Scripts. {\em Findings of The Asian Federation of Natural Language Processing and The Association for Computational Linguistics 2025}
+\item {\bf Kangda Wei}, Hasnat Md Abdullah, Ruihong Huang. Mitigating Gender Bias via Fostering Exploratory Thinking in LLMs. {\em Findings of the Empirical Methods in Natural Language Processing 2025.}
+\item Abhilekh Borah, Hasnat Md Abdullah, {\bf Kangda Wei}, Ruihong Huang. CliME: Evaluating Multimodal Climate Discourse on Social Media and the Climate Alignment Quotient (CAQ). {\em NLP4PosImpact Workshop, Association for Computational Linguistics 2025. Best Paper Award.}
+\item {\bf Kangda Wei}, Xi Shi, Jonathan Tong, Sai Ramana Reddy, Anandhavelu Natarajan, Rajiv Jain, Aparna Garimella, Ruihong Huang. LegalCore: A Dataset for Event Coreference Resolution in Legal Documents. {\em Findings of Association for Computational Linguistics 2025.}
+\item {\bf Kangda Wei}, Zhengyu Zhou, Bingqing Wang, Jun Araki, Lukas Lange, Ruihong Huang, Zhe Feng. Multi-Agent Video Understanding for Advanced Indexing of Lecture Videos. {\em U.S Patent.}
+\item Hasnat Md Abdullah, Tian Liu, {\bf Kangda Wei}, Shu Kong, Ruihong Huang. UALBench: The First Comprephensive Unusual Activity Localization Benchmark. {\em Winter Conference on Applications of Computer Vision (WACV) 2025.}
+\item {\bf Kangda Wei}, Aayush Guatam, Ruihong Huang. Are LLMs Good Annotators for Discourse-level Event Relation Extraction? {\em Findings of the Empirical Methods in Natural Language Processing 2024.}
+\item Jiangshu Du, Yibo Wang, Wenting Zhao, ... {\bf Kangda Wei}, et al. LLMs Assist NLP Researchers: Critique Paper (Meta-)Reviewing. {\em Proceedings of the Empirical Methods in Natural Language Processing 2024.}
+\item {\bf Kangda Wei}, Dawn Lawrie, Benjamin Van Durme, Yunmo Chen, Orion Weller. When Do Decompositions Help for Machine Reading? {\em Proceedings of the Empirical Methods in Natural Language Processing 2023}
+\item {\bf Kangda Wei}, Sayan Ghosh, Rakesh Menon, and Shashank Srivastava. Leveraging Multiple Teachers for Test-Time Adaptation of Language-Guided Classifiers. {\em Findings of the Empirical Methods in Natural Language Processing 2023}
+\item {\bf Kangda Wei}, Sayan Ghosh, and Shashank Srivastava. 2022. Compositional Generalization for Kinship Prediction through Data Augmentation. {\em Proceedings of the 4th Workshop of Narrative Understanding (WNU2022)}, pages 13–19, Seattle, United States. Association for Computational Linguistics.
+\item *Songhe Wang, {\bf *Kangda Wei}, Lei Lin, Weizi Li. “Spatial-temporal Analysis of COVID-19's Impact on Human Mobility: the Case of the United States,” in the {\em 20th and 21st Joint COTA International Conference of Transportation Professionals.} *Co-author: equal contribution
+\end{itemize}
+\end{rSection}
+
+\begin{rSection}{Professional Services}
+\begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
+\item Reviewer for ACL Rolling Review (ARR) since February 2024 (covering ACL/NAACL/EMNLP/EACL/AACL).
+\item Reviewer for IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2025.
+\item Reviewer for Neural Information Processing Systems (NeurIPS), 2026.
+\end{itemize}
+\end{rSection}
+
+\begin{rSection}{Teaching Services}
+%{\bf Graduate Teaching Assistant:}
+\begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
+\item TA COMP211 System Fundamentals, UNC-Chapel Hill, Department of Computer Science, Spring 2023
+\item COMP431 Internet Services and Protocols, UNC-Chapel Hill, Department of Computer Science, Fall 2022
+\end{itemize}
+\end{rSection}
+
+\begin{rSection}{Awards}
+\begin{itemize}[noitemsep, leftmargin=*]
+\item Outstanding PhD Research Award (one per year), Texas A\&M University CSE Department, 2026
+\item Texas A\&M University Graduate School Travel Grant, 2026
+\item Texas A\&M University CSE Department Travel Grant, 2023, 2024, 2025, 2026
+\end{itemize}
+\end{rSection}
+
+
+%\end{rSection}
+%----------------------------------------------------------------------------------------
+%   Projects SECTION
+%----------------------------------------------------------------------------------------
+
+%\begin{rSection}{Notable Porjects}
+%{\bf Email Plug-in Startup}\hfill{Jan 2022 - May 2022}
+%\begin{itemize}[leftmargin=*]
+%\item Built a classification model from scratch for email classification using PyTorch and Huggingface Transformer. 
+%\item Increased the model accuracy from 0.32 to 0.84 with limited amount of annotated data.
+%\end{itemize}
+
+%{\bf Cyber-infrastructure: Web-based Application for Sharing Neural Imaging Data}\hfill{Sep 2020 - Jan 2021}
+%\begin{itemize}[leftmargin=*]
+%\item Built a website where users can register and login to access the neural imaging data of patients. 
+%\item Practiced the basis of front-end and back-end engineering using Python Flask and Firebase. 
+%\end{itemize}
+
+%\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	Skills SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Skills}
+\begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
+\item {\bf Programming Languages / Frameworks:} Python, Java, JavaScript, C, HTML, CSS, MATLAB, R, PyTorch
+\item {\bf Software \& Tools:} PyCharm, VS Code, Spyder, Jupyter Notebook, Weights \& Biases,, Docker, Slurm, Git, Tableau, LaTeX, Anaconda, RStudio
+\item {\bf LLM Training \& Post-training:} SFT, RLHF, DPO, GRPO, Reward Modeling, Prompt Engineering, Synthetic Data Generation
+\item {\bf Cloud \& Infrastructure:} AWS, Microsoft Azure, Amazon Mechanical Turk
+\item {\bf Language:} Chinese (native), English (proficient)
+
+\end{itemize}
+\end{rSection}
+
+\end{document}
